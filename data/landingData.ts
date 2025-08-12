@@ -36,38 +36,20 @@ export const depoimentosData = [
   {
     id: 1,
     nome_paciente: "Ana F.",
-    foto_paciente_url: fullFaceDepois1.src,
+    foto_paciente_url: botoxDepois1.src,
     depoimento: "A DamaFace me devolveu a autoestima. O resultado foi incrível e muito natural, exatamente como eu queria."
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
-    foto_paciente_url: fullFaceDepois2.src,
+    foto_paciente_url: botoxDepois2.src,
     depoimento: "Profissionais incríveis! Me senti segura durante todo o processo e o resultado superou minhas expectativas."
   },
   {
     id: 3,
-    nome_paciente: "João Paulo",
-    foto_paciente_url: fullFaceDepois3.src,
+    nome_paciente: "Luiza",
+    foto_paciente_url: botoxDepois3.src,
     depoimento: "Já fiz 3 procedimentos na DamaFace e sempre fico impressionado com a qualidade e o cuidado da Dra."
-  },
-  {
-    id: 4,
-    nome_paciente: "Gustavo M.",
-    foto_paciente_url: fullFaceDepois4.src,
-    depoimento: "Fiquei surpreso com o resultado! Minha autoestima aumentou muito após o procedimento. Recomendo a todos que buscam naturalidade."
-  },
-  {
-    id: 5,
-    nome_paciente: "Gabriel F.",
-    foto_paciente_url: fullFaceDepois5.src,
-    depoimento: "O atendimento foi impecável do início ao fim. Me senti muito seguro e o resultado ficou exatamente como eu queria!"
-  },
-  {
-    id: 6,
-    nome_paciente: "Fernanda S.",
-    foto_paciente_url: fullFaceDepois6.src,
-    depoimento: "Equipe muito atenciosa e profissional. O resultado ficou discreto e realçou meus traços de forma natural."
   }
 ];
 
