@@ -58,7 +58,7 @@ const PorqueEscolher = () => {
             Pronto para sua transformação?
           </h3>
           <p className="text-base text-gray-500 mb-6 max-w-2xl mx-auto">
-            Veja como você ficaria com uma harmonização facial
+            Veja como você ficaria com Botox
           </p>
           <Link
             href="#resultados"
