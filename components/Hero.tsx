@@ -76,7 +76,7 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Botox
+                Botox - toxina botulínica
                 <span className="text-[#fa1571] block font-semibold">Rejuvenesça <span className="text-[#fff] font-semibold">seu olhar e suavize as marcas do</span> tempo.</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
