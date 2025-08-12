@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import background from '@/assets/back-botox.jpeg';
+import background from '@/assets/back-full-face.jpeg';
 
 const BotoxInfo = () => {
   const areas = [
