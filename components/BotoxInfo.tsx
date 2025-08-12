@@ -27,7 +27,8 @@ const BotoxInfo = () => {
         {/* Título */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-            O que é Botox / Toxina Botulínica?
+            O que é <span className="text-[#fa1571] font-semibold">Botox  </span>/ 
+            <span className="text-[#fa1571] font-semibold">Toxina Botulínica</span>?
           </h2>
         </div>
 
