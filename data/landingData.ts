@@ -104,6 +104,30 @@ export const faqData = [
     resposta: "Na maioria dos casos, não há necessidade de exames prévios. Entretanto, realizamos uma avaliação completa para confirmar se o tratamento é indicado para você."
   }
 ];
+
+export const diferenciaisData = [
+  {
+    id: 1,
+    titulo: "Naturalidade e Exclusividade",
+    descricao: "Cada procedimento é personalizado para valorizar seus traços únicos — sem exageros, apenas realçando o que há de melhor em você."
+  },
+  {
+    id: 2,
+    titulo: "Segurança e Qualidade",
+    descricao: "Utilizamos produtos certificados pela ANVISA e aplicamos técnicas avançadas para garantir sua segurança em todas as etapas."
+  },
+  {
+    id: 3,
+    titulo: "Experiência Comprovada",
+    descricao: "Mais de 8 anos de experiência e 2.500 pacientes satisfeitos atestam nossa credibilidade."
+  },
+  {
+    id: 4,
+    titulo: "Acompanhamento Personalizado",
+    descricao: "Cuidamos de você antes, durante e depois do procedimento para garantir sua total satisfação."
+  }
+];
+
 export const unidadesData = [
   { value: "vinhedo", label: "Unidade 1 - Vinhedo" },
   { value: "jaguariuna", label: "Unidade 2 - Jaguariúna" },
