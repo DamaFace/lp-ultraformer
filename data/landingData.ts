@@ -1,15 +1,10 @@
-import fullFaceAntes1 from '@/assets/ante-x-depois-img/full-face-1.1.jpg'
-import fullFaceDepois1 from '@/assets/ante-x-depois-img/full-face-1.2.jpg'
-import fullFaceAntes2 from '@/assets/ante-x-depois-img/full-face-2.1.jpg'
-import fullFaceDepois2 from '@/assets/ante-x-depois-img/full-face-2.2.jpg'
-import fullFaceAntes3 from '@/assets/ante-x-depois-img/full-face-3.1.jpg'
-import fullFaceDepois3 from '@/assets/ante-x-depois-img/full-face-3.2.jpg'
-import fullFaceAntes4 from '@/assets/ante-x-depois-img/full-face-4.1.jpg'
-import fullFaceDepois4 from '@/assets/ante-x-depois-img/full-face-4.2.jpg'
-import fullFaceAntes5 from '@/assets/ante-x-depois-img/full-face-5.1.jpg'
-import fullFaceDepois5 from '@/assets/ante-x-depois-img/full-face-5.2.jpg'
-import fullFaceAntes6 from '@/assets/ante-x-depois-img/full-face-6.1.jpg'
-import fullFaceDepois6 from '@/assets/ante-x-depois-img/full-face-6.2.jpg'
+import botoxAntes1 from '@/assets/ante-x-depois-img/botox-1.1.jpg'
+import botoxDepois1 from '@/assets/ante-x-depois-img/botox-1.2.jpg'
+import botoxAntes2 from '@/assets/ante-x-depois-img/botox-2.1.jpg'
+import botoxDepois2 from '@/assets/ante-x-depois-img/botox-2.2.jpg'
+import botoxAntes3 from '@/assets/ante-x-depois-img/botox-3.1.jpg'
+import botoxDepois3 from '@/assets/ante-x-depois-img/botox-3.2.jpg'
+
 
 
 
@@ -18,39 +13,21 @@ import fullFaceDepois6 from '@/assets/ante-x-depois-img/full-face-6.2.jpg'
 export const carrosselData = [
   {
     id: 1,
-    imagem_antes_url: fullFaceAntes1.src,
-    imagem_depois_url: fullFaceDepois1.src,
+    imagem_antes_url: botoxAntes1.src,
+    imagem_depois_url: botoxDepois1.src,
     legenda: "Transformação suave e natural com preenchimento labial"
   },
   {
     id: 2,
-    imagem_antes_url: fullFaceAntes2.src,
-    imagem_depois_url: fullFaceDepois2.src,
+    imagem_antes_url: botoxAntes2.src,
+    imagem_depois_url: botoxDepois2.src,
     legenda: "Harmonização completa realçando a beleza natural"
   },
   {
     id: 3,
-    imagem_antes_url: fullFaceAntes3.src,
-    imagem_depois_url: fullFaceDepois3.src,
+    imagem_antes_url: botoxAntes3.src,
+    imagem_depois_url: botoxDepois3.src,
     legenda: "Resultado equilibrado e sofisticado"
-  },
-  {
-    id: 4,
-    imagem_antes_url: fullFaceAntes4.src,
-    imagem_depois_url: fullFaceDepois4.src,
-    legenda: "Realce natural e definição dos contornos faciais"
-  },
-  {
-    id: 5,
-    imagem_antes_url: fullFaceAntes5.src,
-    imagem_depois_url: fullFaceDepois5.src,
-    legenda: "Aprimoramento harmonioso com resultados duradouros"
-  },
-  {
-    id: 6,
-    imagem_antes_url: fullFaceAntes6.src,
-    imagem_depois_url: fullFaceDepois6.src,
-    legenda: "Transformação completa com naturalidade e elegância"
   }
 ];
 
