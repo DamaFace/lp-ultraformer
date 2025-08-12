@@ -95,63 +95,38 @@ export const depoimentosData = [
 ];
 
 // Dados para a seção "Por que escolher a DamaFace?"
-export const diferenciaisData = [
-  {
-    id: 1,
-    titulo: "Naturalidade e Exclusividade",
-    descricao: "Cada procedimento é personalizado para valorizar seus traços únicos — sem exageros, apenas realçando o que há de melhor em você."
-  },
-  {
-    id: 2,
-    titulo: "Segurança e Qualidade",
-    descricao: "Utilizamos produtos certificados pela ANVISA e aplicamos técnicas avançadas para garantir sua segurança em todas as etapas."
-  },
-  {
-    id: 3,
-    titulo: "Experiência Comprovada",
-    descricao: "Mais de 8 anos de experiência e 2.500 pacientes satisfeitos atestam nossa credibilidade."
-  },
-  {
-    id: 4,
-    titulo: "Acompanhamento Personalizado",
-    descricao: "Cuidamos de você antes, durante e depois do procedimento para garantir sua total satisfação."
-  }
-];
-
-// Dados para o FAQ
 export const faqData = [
   {
     id: 1,
-    pergunta: "A Harmonização Facial é dolorosa?",
-    resposta: "Utilizamos anestesia tópica e técnicas avançadas para garantir o máximo de conforto durante o procedimento. A maioria dos pacientes relata apenas um leve desconforto."
+    pergunta: "O tratamento com Botox dói?",
+    resposta: "A aplicação de Botox é feita com agulhas extremamente finas e provoca apenas um leve desconforto. Podemos utilizar pomada anestésica para garantir maior conforto durante o procedimento."
   },
   {
     id: 2,
-    pergunta: "Quanto tempo dura o resultado?",
-    resposta: "Os resultados podem durar de 12 a 18 meses, dependendo do tipo de produto utilizado e das características individuais de cada paciente."
+    pergunta: "Qual a duração do efeito do Botox para rugas e linhas de expressão?",
+    resposta: "O efeito do Botox costuma durar de 4 a 6 meses, variando conforme a área tratada e a resposta individual do organismo."
   },
   {
     id: 3,
-    pergunta: "Quando posso ver o resultado final?",
-    resposta: "Os resultados são visíveis imediatamente, mas o resultado final aparece após 15 dias, quando o inchaço diminui completamente."
+    pergunta: "Em quanto tempo vejo o resultado do Botox?",
+    resposta: "Os primeiros resultados do Botox aparecem entre 3 e 5 dias após a aplicação, com efeito máximo visível em até 15 dias."
   },
   {
     id: 4,
-    pergunta: "Qual o tempo de recuperação?",
-    resposta: "A recuperação é rápida. Você pode retomar as atividades normais no mesmo dia, evitando apenas exercícios intensos nas primeiras 24 horas."
+    pergunta: "Qual é o tempo de recuperação após a aplicação de Botox?",
+    resposta: "A recuperação é imediata. O paciente pode retomar atividades no mesmo dia, evitando exercícios físicos intensos e massagens na região tratada nas primeiras 24 horas."
   },
   {
     id: 5,
-    pergunta: "É seguro fazer harmonização facial?",
-    resposta: "Sim, quando realizada por profissionais qualificados e com produtos certificados. Na DamaFace, seguimos todos os protocolos de segurança."
+    pergunta: "O Botox é seguro para tratamento estético?",
+    resposta: "Sim, quando aplicado por profissionais qualificados e utilizando toxina botulínica aprovada pela Anvisa. Seguimos todos os protocolos para garantir segurança e resultados naturais."
   },
   {
     id: 6,
-    pergunta: "Preciso fazer algum exame antes do procedimento?",
-    resposta: "Realizamos uma avaliação completa durante a consulta. Em alguns casos, pode ser necessário exame de sangue, que será solicitado na avaliação."
+    pergunta: "Preciso fazer exames antes de aplicar Botox?",
+    resposta: "Na maioria dos casos, não há necessidade de exames prévios. Entretanto, realizamos uma avaliação completa para confirmar se o tratamento é indicado para você."
   }
 ];
-
 export const unidadesData = [
   { value: "vinhedo", label: "Unidade 1 - Vinhedo" },
   { value: "jaguariuna", label: "Unidade 2 - Jaguariúna" },
