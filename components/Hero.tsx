@@ -76,11 +76,11 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Harmonização Facial <br /> Full Face
-                <span className="text-[#fa1571] block font-semibold">Imagine olhar no espelho e amar o que vê.</span>
+                Botox
+                <span className="text-[#fa1571] block font-semibold">Rejuvenesça seu olhar e suavize as marcas do tempo.</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> entregando harmonia, simetria e naturalidade sem perder sua essência.
+                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> aplicando Botox com segurança e naturalidade, suavizando rugas e prevenindo sinais do envelhecimento — tudo sem perder sua essência.
                 </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
