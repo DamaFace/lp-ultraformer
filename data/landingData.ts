@@ -1,28 +1,36 @@
-import botoxAntes1 from '@/assets/ante-x-depois-img/botox-1.1.jpg'
-import botoxDepois1 from '@/assets/ante-x-depois-img/botox-1.2.jpg'
-import botoxAntes2 from '@/assets/ante-x-depois-img/botox-2.1.jpg'
-import botoxDepois2 from '@/assets/ante-x-depois-img/botox-2.2.jpg'
-import botoxAntes3 from '@/assets/ante-x-depois-img/botox-3.1.jpg'
-import botoxDepois3 from '@/assets/ante-x-depois-img/botox-3.2.jpg'
+import labialAntes1 from '@/assets/ante-x-depois-img/labial-1.1.png'
+import labialDepois1 from '@/assets/ante-x-depois-img/labial-1.2.png'
+import labialAntes2 from '@/assets/ante-x-depois-img/labial-2.1.png'
+import labialDepois2 from '@/assets/ante-x-depois-img/labial-2.2.png'
+import labialAntes3 from '@/assets/ante-x-depois-img/labial-3.1.png'
+import labialDepois3 from '@/assets/ante-x-depois-img/labial-3.2.png'
+import labialAntes4 from '@/assets/ante-x-depois-img/labial-4.1.png'
+import labialDepois4 from '@/assets/ante-x-depois-img/labial-4.2.png'
 
 // Dados para o carrossel (antes x depois)
 export const carrosselData = [
   {
     id: 1,
-    imagem_antes_url: botoxAntes1.src,
-    imagem_depois_url: botoxDepois1.src,
+    imagem_antes_url: labialAntes1.src,
+    imagem_depois_url: labialDepois1.src,
     legenda: "Transformação suave e natural com preenchimento labial"
   },
   {
     id: 2,
-    imagem_antes_url: botoxAntes2.src,
-    imagem_depois_url: botoxDepois3.src,
+    imagem_antes_url: labialAntes2.src,
+    imagem_depois_url: labialDepois2.src,
     legenda: "Harmonização completa realçando a beleza natural"
   },
   {
     id: 3,
-    imagem_antes_url: botoxAntes3.src,
-    imagem_depois_url: botoxDepois3.src,
+    imagem_antes_url: labialAntes3.src,
+    imagem_depois_url: labialDepois3.src,
+    legenda: "Resultado equilibrado e sofisticado"
+  },
+    {
+    id: 4,
+    imagem_antes_url: labialAntes4.src,
+    imagem_depois_url: labialDepois4.src,
     legenda: "Resultado equilibrado e sofisticado"
   }
 ];
@@ -31,19 +39,19 @@ export const depoimentosData = [
   {
     id: 1,
     nome_paciente: "Ana F.",
-    foto_paciente_url: botoxDepois1.src,
+    foto_paciente_url: labialDepois1.src,
     depoimento: "Sempre quis ter lábios mais definidos e volumosos, mas sem perder a naturalidade. O preenchimento labial que fiz na DamaFace superou minhas expectativas. Ficou perfeito!"
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
-    foto_paciente_url: botoxDepois1.src,
+    foto_paciente_url: labialDepois2.src,
     depoimento: "Meus lábios eram muito finos e sem contorno. Após o preenchimento labial na DamaFace, ganhei volume e hidratação. Agora me sinto muito mais confiante para sorrir."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
-    foto_paciente_url: botoxDepois1.src,
+    foto_paciente_url: labialDepois3.src,
     depoimento: "O preenchimento labial que fiz na DamaFace ficou extremamente natural. A equipe foi atenciosa, explicou todo o processo e o resultado ficou harmonioso com meu rosto."
   }
 ];
