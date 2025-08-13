@@ -77,7 +77,7 @@ const Hero = () => {
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
                 Preenchimento Labial
-                <span className="text-[#fa1571] block font-semibold">Aumente o volume e realce a beleza natural dos seus lábios.</span>
+                <span className="text-[#fa1571] block font-semibold">Aumente o volume <span className="text-[#fff] block font-semibold">e realce a beleza natural dos seus.</span> lábios.</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
                   São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> transformando sorrisos com preenchimento labial seguro e natural. Realce o contorno, aumente o volume e conquiste lábios mais hidratados e harmoniosos, mantendo sua essência e beleza única.
