@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget/ChatWidget';
 
 export const metadata = {
-  title: 'DamaFace Vinhedo – Harmonização Facial Full Face em Vinhedo/SP | Clínica Especializada',
-  description: 'DamaFace em Vinhedo/SP — referência em harmonização facial e corporal com naturalidade. +8 anos de experiência, +2.500 pacientes satisfeitos. Transforme sua autoestima com técnicas avançadas de Full Face. Agende sua avaliação hoje mesmo!',
-  keywords: 'harmonização facial, harmonização corporal, harmonização facial natural, harmonização full face, rejuvenescimento facial, clínica estética Vinhedo, autoestima, DamaFace',
+  title: 'DamaFace Vinhedo – Botox e Toxina Botulínica em Vinhedo/SP | Clínica Especializada',
+  description: 'DamaFace em Vinhedo/SP — referência em aplicação de Botox e toxina botulínica para suavizar rugas e linhas de expressão. +8 anos de experiência, +3.000 procedimentos realizados. Rejuvenesça com segurança e naturalidade. Agende sua avaliação!',
+  keywords: 'botox Vinhedo, toxina botulínica Vinhedo, aplicação de botox, rugas e linhas de expressão, botox testa, botox pés de galinha, clínica estética Vinhedo, rejuvenescimento facial, DamaFace',
   openGraph: {
-    title: 'DamaFace Vinhedo – Harmonização Facial Full Face',
-    description: 'Clínica especializada em harmonização facial e corporal em Vinhedo/SP. Resultados naturais com +8 anos de experiência — agende sua avaliação!',
+    title: 'DamaFace Vinhedo – Botox e Toxina Botulínica',
+    description: 'Clínica especializada em aplicação de Botox em Vinhedo/SP. Tratamento seguro e natural para suavizar rugas e marcas de expressão. Agende sua avaliação!',
     type: 'website',
   }
 }
