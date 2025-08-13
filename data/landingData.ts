@@ -6,6 +6,27 @@ import botoxAntes3 from '@/assets/ante-x-depois-img/botox-3.1.jpg'
 import botoxDepois3 from '@/assets/ante-x-depois-img/botox-3.2.jpg'
 
 // Dados para o carrossel (antes x depois)
+export const carrosselData = [
+  {
+    id: 1,
+    imagem_antes_url: botoxAntes1.src,
+    imagem_depois_url: botoxDepois1.src,
+    legenda: "Transformação suave e natural com preenchimento labial"
+  },
+  {
+    id: 2,
+    imagem_antes_url: botoxAntes2.src,
+    imagem_depois_url: botoxDepois3.src,
+    legenda: "Harmonização completa realçando a beleza natural"
+  },
+  {
+    id: 3,
+    imagem_antes_url: botoxAntes3.src,
+    imagem_depois_url: botoxDepois3.src,
+    legenda: "Resultado equilibrado e sofisticado"
+  }
+];
+// dados para os depoimentos 
 export const depoimentosData = [
   {
     id: 1,
