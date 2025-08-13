@@ -31,19 +31,19 @@ export const depoimentosData = [
   {
     id: 1,
     nome_paciente: "Ana F.",
-    foto_paciente_url: labialDepois1.src,
+    foto_paciente_url: botoxDepois1.src,
     depoimento: "Sempre quis ter lábios mais definidos e volumosos, mas sem perder a naturalidade. O preenchimento labial que fiz na DamaFace superou minhas expectativas. Ficou perfeito!"
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
-    foto_paciente_url: labialDepois2.src,
+    foto_paciente_url: botoxDepois1.src,
     depoimento: "Meus lábios eram muito finos e sem contorno. Após o preenchimento labial na DamaFace, ganhei volume e hidratação. Agora me sinto muito mais confiante para sorrir."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
-    foto_paciente_url: labialDepois3.src,
+    foto_paciente_url: botoxDepois1.src,
     depoimento: "O preenchimento labial que fiz na DamaFace ficou extremamente natural. A equipe foi atenciosa, explicou todo o processo e o resultado ficou harmonioso com meu rosto."
   }
 ];
