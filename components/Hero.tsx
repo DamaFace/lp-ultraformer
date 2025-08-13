@@ -76,11 +76,11 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Botox - toxina botulínica
-                <span className="text-[#fa1571] block font-semibold">Rejuvenesça <span className="text-[#fff] font-semibold">seu olhar e suavize as marcas do</span> tempo.</span>
+                Preenchimento Labial
+                <span className="text-[#fa1571] block font-semibold">Aumente o volume e realce a beleza natural dos seus lábios.</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> aplicando Botox com segurança e naturalidade, suavizando rugas e prevenindo sinais do envelhecimento — tudo sem perder sua essência.
+                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> transformando sorrisos com preenchimento labial seguro e natural. Realce o contorno, aumente o volume e conquiste lábios mais hidratados e harmoniosos, mantendo sua essência e beleza única.
                 </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
