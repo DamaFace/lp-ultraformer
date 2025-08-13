@@ -49,36 +49,26 @@ export const depoimentosData = [
 ];
 
 // Dados para a seção "Por que escolher a DamaFace?"
-export const faqData = [
+export const diferenciaisData = [
   {
     id: 1,
-    pergunta: "O tratamento com Botox dói?",
-    resposta: "A aplicação de Botox é feita com agulhas extremamente finas e provoca apenas um leve desconforto. Podemos utilizar pomada anestésica para garantir maior conforto durante o procedimento."
+    titulo: "Naturalidade e Exclusividade",
+    descricao: "Cada procedimento é personalizado para valorizar seus traços únicos — sem exageros, apenas realçando o que há de melhor em você."
   },
   {
     id: 2,
-    pergunta: "Qual a duração do efeito do Botox para rugas e linhas de expressão?",
-    resposta: "O efeito do Botox costuma durar de 4 a 6 meses, variando conforme a área tratada e a resposta individual do organismo."
+    titulo: "Segurança e Qualidade",
+    descricao: "Utilizamos produtos certificados pela ANVISA e aplicamos técnicas avançadas para garantir sua segurança em todas as etapas."
   },
   {
     id: 3,
-    pergunta: "Em quanto tempo vejo o resultado do Botox?",
-    resposta: "Os primeiros resultados do Botox aparecem entre 3 e 5 dias após a aplicação, com efeito máximo visível em até 15 dias."
+    titulo: "Experiência Comprovada",
+    descricao: "Mais de 8 anos de experiência e 2.500 pacientes satisfeitos atestam nossa credibilidade."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após a aplicação de Botox?",
-    resposta: "A recuperação é imediata. O paciente pode retomar atividades no mesmo dia, evitando exercícios físicos intensos e massagens na região tratada nas primeiras 24 horas."
-  },
-  {
-    id: 5,
-    pergunta: "O Botox é seguro para tratamento estético?",
-    resposta: "Sim, quando aplicado por profissionais qualificados e utilizando toxina botulínica aprovada pela Anvisa. Seguimos todos os protocolos para garantir segurança e resultados naturais."
-  },
-  {
-    id: 6,
-    pergunta: "Preciso fazer exames antes de aplicar Botox?",
-    resposta: "Na maioria dos casos, não há necessidade de exames prévios. Entretanto, realizamos uma avaliação completa para confirmar se o tratamento é indicado para você."
+    titulo: "Acompanhamento Personalizado",
+    descricao: "Cuidamos de você antes, durante e depois do procedimento para garantir sua total satisfação."
   }
 ];
 
