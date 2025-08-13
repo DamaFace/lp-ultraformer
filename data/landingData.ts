@@ -31,20 +31,20 @@ export const depoimentosData = [
   {
     id: 1,
     nome_paciente: "Ana F.",
-    foto_paciente_url: botoxDepois1.src,
-    depoimento: "Eu tinha muitas rugas na testa e ao redor dos olhos, mas o Botox que fiz na DamaFace deixou minha pele muito mais lisa e com um aspecto natural. Estou muito mais feliz e confiante."
+    foto_paciente_url: labialDepois1.src,
+    depoimento: "Sempre quis ter lábios mais definidos e volumosos, mas sem perder a naturalidade. O preenchimento labial que fiz na DamaFace superou minhas expectativas. Ficou perfeito!"
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
-    foto_paciente_url: botoxDepois2.src,
-    depoimento: "Fiz Botox na DamaFace para suavizar as linhas de expressão e fiquei impressionada com o resultado. Profissionais atenciosos, procedimento seguro e efeito super natural."
+    foto_paciente_url: labialDepois2.src,
+    depoimento: "Meus lábios eram muito finos e sem contorno. Após o preenchimento labial na DamaFace, ganhei volume e hidratação. Agora me sinto muito mais confiante para sorrir."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
-    foto_paciente_url: botoxDepois3.src,
-    depoimento: "O Botox aplicado na DamaFace transformou meu rosto. Minhas rugas diminuíram visivelmente e a aparência cansada desapareceu. Recomendo de olhos fechados!"
+    foto_paciente_url: labialDepois3.src,
+    depoimento: "O preenchimento labial que fiz na DamaFace ficou extremamente natural. A equipe foi atenciosa, explicou todo o processo e o resultado ficou harmonioso com meu rosto."
   }
 ];
 
