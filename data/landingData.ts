@@ -5,10 +5,6 @@ import botoxDepois2 from '@/assets/ante-x-depois-img/botox-2.2.jpg'
 import botoxAntes3 from '@/assets/ante-x-depois-img/botox-3.1.jpg'
 import botoxDepois3 from '@/assets/ante-x-depois-img/botox-3.2.jpg'
 
-
-
-
-
 // Dados para o carrossel (antes x depois)
 export const depoimentosData = [
   {
@@ -28,27 +24,6 @@ export const depoimentosData = [
     nome_paciente: "Luiza",
     foto_paciente_url: botoxDepois3.src,
     depoimento: "O Botox aplicado na DamaFace transformou meu rosto. Minhas rugas diminuíram visivelmente e a aparência cansada desapareceu. Recomendo de olhos fechados!"
-  }
-];
-// Dados para os depoimentos
-export const depoimentosData = [
-  {
-    id: 1,
-    nome_paciente: "Ana F.",
-    foto_paciente_url: botoxDepois1.src,
-    depoimento: "A DamaFace me devolveu a autoestima. O resultado foi incrível e muito natural, exatamente como eu queria."
-  },
-  {
-    id: 2,
-    nome_paciente: 'Ana Maria',
-    foto_paciente_url: botoxDepois2.src,
-    depoimento: "Profissionais incríveis! Me senti segura durante todo o processo e o resultado superou minhas expectativas."
-  },
-  {
-    id: 3,
-    nome_paciente: "Luiza",
-    foto_paciente_url: botoxDepois3.src,
-    depoimento: "Já fiz 3 procedimentos na DamaFace e sempre fico impressionado com a qualidade e o cuidado da Dra."
   }
 ];
 
