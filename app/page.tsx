@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget/ChatWidget';
 
 export const metadata = {
-  title: 'DamaFace Vinhedo – Botox e Toxina Botulínica em Vinhedo/SP | Clínica Especializada',
-  description: 'DamaFace em Vinhedo/SP — referência em aplicação de Botox e toxina botulínica para suavizar rugas e linhas de expressão. +8 anos de experiência, +3.000 procedimentos realizados. Rejuvenesça com segurança e naturalidade. Agende sua avaliação!',
-  keywords: 'botox Vinhedo, toxina botulínica Vinhedo, aplicação de botox, rugas e linhas de expressão, botox testa, botox pés de galinha, clínica estética Vinhedo, rejuvenescimento facial, DamaFace',
+  title: 'DamaFace Vinhedo – Preenchimento Labial em Vinhedo/SP | Lábios Definidos e Naturais',
+  description: 'DamaFace em Vinhedo/SP — referência em preenchimento labial para aumentar volume, definir contorno e hidratar os lábios com naturalidade. +8 anos de experiência e +3.000 procedimentos realizados. Realce sua beleza com segurança. Agende sua avaliação!',
+  keywords: 'preenchimento labial Vinhedo, aumentar volume dos lábios, definir contorno labial, hidratação labial, lábios naturais, clínica estética Vinhedo, harmonização facial, DamaFace',
   openGraph: {
-    title: 'DamaFace Vinhedo – Botox e Toxina Botulínica',
-    description: 'Clínica especializada em aplicação de Botox em Vinhedo/SP. Tratamento seguro e natural para suavizar rugas e marcas de expressão. Agende sua avaliação!',
+    title: 'DamaFace Vinhedo – Preenchimento Labial',
+    description: 'Clínica especializada em preenchimento labial em Vinhedo/SP. Procedimento seguro e personalizado para realçar seus lábios com naturalidade. Agende sua avaliação!',
     type: 'website',
   }
 }
