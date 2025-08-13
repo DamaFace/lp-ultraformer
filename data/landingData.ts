@@ -10,27 +10,26 @@ import botoxDepois3 from '@/assets/ante-x-depois-img/botox-3.2.jpg'
 
 
 // Dados para o carrossel (antes x depois)
-export const carrosselData = [
+export const depoimentosData = [
   {
     id: 1,
-    imagem_antes_url: botoxAntes1.src,
-    imagem_depois_url: botoxDepois1.src,
-    legenda: "Transformação suave e natural com preenchimento labial"
+    nome_paciente: "Ana F.",
+    foto_paciente_url: botoxDepois1.src,
+    depoimento: "Eu tinha muitas rugas na testa e ao redor dos olhos, mas o Botox que fiz na DamaFace deixou minha pele muito mais lisa e com um aspecto natural. Estou muito mais feliz e confiante."
   },
   {
     id: 2,
-    imagem_antes_url: botoxAntes2.src,
-    imagem_depois_url: botoxDepois2.src,
-    legenda: "Harmonização completa realçando a beleza natural"
+    nome_paciente: 'Ana Maria',
+    foto_paciente_url: botoxDepois2.src,
+    depoimento: "Fiz Botox na DamaFace para suavizar as linhas de expressão e fiquei impressionada com o resultado. Profissionais atenciosos, procedimento seguro e efeito super natural."
   },
   {
     id: 3,
-    imagem_antes_url: botoxAntes3.src,
-    imagem_depois_url: botoxDepois3.src,
-    legenda: "Resultado equilibrado e sofisticado"
+    nome_paciente: "Luiza",
+    foto_paciente_url: botoxDepois3.src,
+    depoimento: "O Botox aplicado na DamaFace transformou meu rosto. Minhas rugas diminuíram visivelmente e a aparência cansada desapareceu. Recomendo de olhos fechados!"
   }
 ];
-
 // Dados para os depoimentos
 export const depoimentosData = [
   {
