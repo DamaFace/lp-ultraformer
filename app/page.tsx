@@ -27,7 +27,7 @@ export default function Home() {
       <ChatWidget />
       <Carrossel />
       <Depoimentos />
-      <BotoxInfo />
+      <LabialInfo />
       <PorqueEscolher />
       <FAQ />
       <Footer />
