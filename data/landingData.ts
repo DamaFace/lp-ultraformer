@@ -40,21 +40,22 @@ export const depoimentosData = [
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "Sempre me incomodou a flacidez no rosto, mas após o tratamento com bioestimulador de colágeno na DamaFace, minha pele ficou muito mais firme e com aspecto rejuvenescido."
+    depoimento: "Sempre quis ter glúteos mais arredondados e firmes. Depois do tratamento de harmonização de glúteos na DamaFace, meu bumbum ganhou mais volume e um formato muito mais bonito."
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Senti que minha pele perdeu elasticidade com o tempo, e o bioestimulador de colágeno devolveu a firmeza e a vitalidade que eu queria. Me sinto muito mais confiante."
+    depoimento: "Eu tinha flacidez nos glúteos e não me sentia confortável com isso. Após a harmonização de glúteos na DamaFace, notei mais sustentação, firmeza e um contorno incrível."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "O tratamento com bioestimulador de colágeno na DamaFace foi incrível. Minha pele ganhou mais sustentação e vi resultados naturais e progressivos, sem perder minha essência."
+    depoimento: "A harmonização de glúteos na DamaFace superou minhas expectativas. O volume ficou proporcional ao meu corpo e o resultado foi natural, sem perder a minha essência."
   }
 ];
+
 
 
 // Dados para a seção "Por que escolher a DamaFace?"
