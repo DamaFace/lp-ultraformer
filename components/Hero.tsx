@@ -151,7 +151,7 @@ const Hero = () => {
               className="w-full h-11 text-base font-semibold bg-[#fa1571] hover:bg-[#d91460]"
               onClick={() => {
                 setOpenModal(false);
-                window.location.href = 'https://agenda.link/online_scheduling/49992/';
+                window.location.href = 'https://mpago.li/2q4t1zh';
               }}
             >
               Ok
