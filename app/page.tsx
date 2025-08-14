@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget/ChatWidget';
 
 export const metadata = {
-  title: 'DamaFace Vinhedo – Laser Lavieen em Vinhedo/SP | Rejuvenescimento, Firmeza e Pele Renovada',
-  description: 'DamaFace Vinhedo/SP — clínica referência em tratamentos com Laser Lavieen. Reduza manchas, melhore a textura, firmeza e luminosidade da pele com tecnologia avançada. Resultados naturais e eficazes para todos os tipos de pele. Mais de 8 anos de experiência e +3.000 procedimentos realizados. Agende sua avaliação e conquiste pele jovem, firme e revitalizada!',
-  keywords: 'Laser Lavieen Vinhedo, rejuvenescimento de pele Vinhedo, redução de manchas Vinhedo, firmeza da pele Vinhedo, textura da pele, clínica estética Vinhedo, DamaFace, estímulo de colágeno, tratamento seguro Laser Lavieen, pele renovada e luminosa',
+  title: 'DamaFace Vinhedo – Ultraformer em Vinhedo/SP | Lifting Facial, Firmeza e Pele Renovada',
+  description: 'DamaFace Vinhedo/SP — clínica referência em tratamentos com Ultraformer. Proporcione lifting facial, firmeza, definição de contornos e rejuvenescimento da pele com tecnologia avançada de ultrassom microfocado. Resultados naturais, eficazes e duradouros. Mais de 8 anos de experiência e +3.000 procedimentos realizados. Agende sua avaliação e conquiste pele firme, jovem e revitalizada!',
+  keywords: 'Ultraformer Vinhedo, lifting facial Vinhedo, firmeza da pele Vinhedo, rejuvenescimento facial, definição de contorno facial, clínica estética Vinhedo, DamaFace, ultrassom microfocado, resultados naturais Ultraformer, tratamento seguro lifting facial',
   openGraph: {
-    title: 'DamaFace Vinhedo – Tratamentos com Laser Lavieen',
-    description: 'Clínica especializada em Laser Lavieen em Vinhedo/SP. Melhore a firmeza, textura e luminosidade da pele, reduza manchas e estimule o colágeno com tecnologia avançada. Resultados naturais e duradouros. Agende sua avaliação na DamaFace!',
+    title: 'DamaFace Vinhedo – Tratamentos com Ultraformer',
+    description: 'Clínica especializada em Ultraformer em Vinhedo/SP. Melhore firmeza, contornos faciais e rejuvenescimento da pele com tecnologia de ultrassom microfocado. Resultados naturais, eficazes e duradouros. Agende sua avaliação na DamaFace!',
     type: 'website',
   }
 }
