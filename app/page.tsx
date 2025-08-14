@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget/ChatWidget';
 
 export const metadata = {
-  title: 'DamaFace Vinhedo – Bioestimulador de Colágeno em Vinhedo/SP | Pele Firme e Jovem',
-  description: 'DamaFace em Vinhedo/SP — referência em bioestimulador de colágeno para estimular a produção natural da pele, melhorar a firmeza, suavizar rugas e prevenir o envelhecimento. +8 anos de experiência e +3.000 procedimentos realizados. Resultados naturais e duradouros com segurança. Agende sua avaliação!',
-  keywords: 'bioestimulador de colágeno Vinhedo, estimular colágeno pele, tratamento flacidez Vinhedo, firmeza da pele, rejuvenescimento facial, suavizar rugas, clínica estética Vinhedo, harmonização facial, DamaFace',
+  title: 'DamaFace Vinhedo – Harmonização de Glúteos em Vinhedo/SP | Mais Volume, Forma e Firmeza',
+  description: 'DamaFace em Vinhedo/SP — referência em harmonização de glúteos para aumentar o volume, deixar o formato mais arredondado e firme, além de reduzir a flacidez. +8 anos de experiência e +3.000 procedimentos realizados com segurança e resultados naturais. Agende sua avaliação!',
+  keywords: 'harmonização de glúteos Vinhedo, aumentar volume do bumbum, glúteos arredondados, tratamento flacidez glúteos, lifting de glúteos, bioestimulador de colágeno glúteos, bumbum firme e redondo, clínica estética Vinhedo, DamaFace',
   openGraph: {
-    title: 'DamaFace Vinhedo – Bioestimulador de Colágeno',
-    description: 'Clínica especializada em bioestimulador de colágeno em Vinhedo/SP. Procedimento seguro e eficaz para estimular o colágeno, melhorar a firmeza e prevenir o envelhecimento. Agende sua avaliação!',
+    title: 'DamaFace Vinhedo – Harmonização de Glúteos',
+    description: 'Clínica especializada em harmonização de glúteos em Vinhedo/SP. Tratamento seguro para aumentar volume, melhorar formato e firmeza, e reduzir flacidez. Resultados naturais e duradouros. Agende sua avaliação!',
     type: 'website',
   }
 }
