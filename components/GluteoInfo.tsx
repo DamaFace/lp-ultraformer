@@ -16,7 +16,7 @@ const areas = [
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
             O que é
-            <span className="text-[#fa1571] font-semibold"> Bioestimulador de colágeno</span>?
+            <span className="text-[#fa1571] font-semibold"> Harmonização de Glúteos</span>?
           </h2>
         </div>
 
