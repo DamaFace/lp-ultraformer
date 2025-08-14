@@ -1,166 +1,123 @@
-'use client';
+import Image from 'next/image';
+import background from 'public/back-full-face.jpeg';
 
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { unidadesData } from '@/data/landingData';
-import background from 'public/back-full-face.jpeg'
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
-
-const Hero = () => {
-  const [formData, setFormData] = useState({
-    nome: '',
-    whatsapp: '',
-    unidade: ''
-  });
-  const [openModal, setOpenModal] = useState(false);
-
-  // Função de máscara de telefone
-  const phoneMask = (value: string): string => {
-    const digits = value.replace(/\D/g, '');
-    if (digits.length <= 2) return digits;
-
-    const ddd = digits.slice(0, 2);
-    const rest = digits.slice(2);
-
-    if (rest.length <= 8) {
-      return `(${ddd}) ${rest.slice(0, 4)}${rest.length > 4 ? '-' + rest.slice(4) : ''}`;
-    } else {
-      return `(${ddd}) ${rest.slice(0, 5)}-${rest.slice(5, 9)}`;
+const LaserLavieenInfo = () => {
+  const areasTratadas = [
+    { 
+      title: "Rejuvenescimento Facial", 
+      description: "Estimulação de colágeno para redução de rugas e linhas de expressão com tecnologia Lavieen." 
+    },
+    { 
+      title: "Tratamento de Melasma", 
+      description: "Clareamento de manchas faciais com ação profunda e resultados duradouros." 
+    },
+    { 
+      title: "Terapia Capilar", 
+      description: "Estímulo ao crescimento saudável dos fios e tratamento de alopécia." 
+    },
+    { 
+      title: "Redução de Poros", 
+      description: "Minimização do tamanho dos poros e controle de oleosidade." 
+    },
+    { 
+      title: "Uniformização do Tom", 
+      description: "Correção de discromias e vermelhidão para pele homogênea." 
+    },
+    { 
+      title: "Pescoço e Colo", 
+      description: "Rejuvenescimento da área cervical e décolleté com tecnologia não-abrasiva." 
+    },
+    { 
+      title: "Mãos", 
+      description: "Tratamento antienvelhecimento para áreas de pele fina e delicada." 
+    },
+    { 
+      title: "Corpo Inteiro", 
+      description: "Estímulo de colágeno para firmeza e textura uniforme em todas as áreas." 
     }
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      const response = await fetch('https://n8n-n8n.i4khe5.easypanel.host/webhook/depilacao-laser', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        setOpenModal(true);
-        setFormData({ nome: '', whatsapp: '', unidade: '' });
-      } else {
-        alert('Ocorreu um erro ao enviar o formulário. Tente novamente.');
-      }
-    } catch (error) {
-      alert('Ocorreu um erro ao enviar o formulário. Tente novamente.');
-    }
-  };
-
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: field === 'whatsapp' ? phoneMask(value) : value
-    }));
-  };
+  ];
 
   return (
-    <>
-      <section id="hero" className="relative min-h-screen flex items-center justify-center bg-black">
-        {/* Background Image with Dark Overlay */}
-        <div  
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
-          style={{
-            backgroundImage: `url(${background.src})`
-          }}
-          aria-hidden="true"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/60" />
-        <div className="container mx-auto px-4 py-20">
-          <div className="grid lg:grid-cols-3 gap-8 items-center relative z-10">
-            {/* Content */}
-            <div className="lg:col-span-2">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Laser Lavieen<br/>
-                <span className="text-white block font-semibold">Tecnologia avançada para</span>
-                <span className="text-[#fa1571] block font-semibold">pele perfeita</span>
-              </h1>
-              <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                O <span className="text-white font-medium">Laser Lavieen</span> é a evolução em depilação a laser, com <span className="text-white font-medium">mais de 8 anos</span> de comprovação científica. 
-                <span className="text-white font-medium">Resultados 40% mais rápidos</span> que os lasers convencionais, com zero dor e máxima eficiência. 
-                Elimine até <span className="text-white font-medium">95% dos pelos</span> em poucas sessões e conquiste uma pele <span className="text-[#fa1571] font-medium">lisíssima o ano todo</span>.
-              </p>
-              <div className="flex flex-wrap gap-3 mb-8">
-              </div>
+    <section id="procedimentos" className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        {/* Título */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+            O que é o
+            <span className="text-[#fa1571] font-semibold"> Laser Lavieen</span>?
+          </h2>
+        </div>
+
+        {/* Conteúdo */}
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              O <strong>Laser Lavieen</strong> é uma tecnologia <strong>não-invasiva</strong> que combina diferentes comprimentos de onda para tratamentos dermatológicos de alta precisão. Diferente dos lasers convencionais, atua de forma <strong>personalizada</strong> em cada tipo de pele e condição específica.
+            </p>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              Com <strong>resultados cientificamente comprovados</strong>, o Lavieen oferece soluções completas para rejuvenescimento, uniformização da pele e tratamentos capilares, sem downtime e com máxima segurança.
+            </p>
+            <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-8 border border-[#fa1571]/20">
+              <h3 className="text-2xl font-bold text-black mb-4">Diferenciais Exclusivos:</h3>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
+                  Tecnologia patenteada com múltiplos comprimentos de onda
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
+                  Zero dor e zero recuperação (sem downtime)
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
+                  Protocolos personalizados para cada necessidade
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
+                  Resultados visíveis desde a primeira sessão
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
+                  Aprovado pela ANVISA e FDA para diversos tratamentos
+                </li>
+              </ul>
             </div>
-            {/* Form */}
-            <div id="formulario" className="bg-gray-900/90 rounded-2xl shadow-xl p-6 max-w-md mx-auto w-full border border-[#fa1571]/30">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 text-center">
-                Agende sua Avaliação
-              </h2>
-              <form onSubmit={handleSubmit} className="space-y-5">
-                <Input
-                  type="text"
-                  placeholder="Seu nome completo"
-                  value={formData.nome}
-                  onChange={(e) => handleInputChange('nome', e.target.value)}
-                  required
-                  className="h-11 text-base border border-gray-700 focus:border-[#fa1571] bg-gray-800/80 text-white transition-colors"
-                />
-                <Input
-                  type="tel"
-                  placeholder="WhatsApp (11) 99999-9999"
-                  value={formData.whatsapp}
-                  onChange={(e) => handleInputChange('whatsapp', e.target.value)}
-                  required
-                  className="h-11 text-base border border-gray-700 focus:border-[#fa1571] bg-gray-800/80 text-white transition-colors"
-                />
-                <Select value={formData.unidade} onValueChange={(value) => handleInputChange('unidade', value)} required>
-                  <SelectTrigger className="h-11 text-base border border-gray-700 focus:border-[#fa1571] bg-gray-800/80 text-white transition-colors">
-                    <SelectValue placeholder="Selecione sua unidade preferida" />
-                  </SelectTrigger>
-                  <SelectContent className="bg-gray-800 border border-gray-700 text-white">
-                    {unidadesData.map((unidade) => (
-                      <SelectItem key={unidade.value} value={unidade.value} className="hover:bg-gray-700">
-                        {unidade.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-                <Button 
-                  type="submit" 
-                  className="w-full h-12 text-base font-semibold bg-[#fa1571] hover:bg-[#d91460] transition-all duration-300 hover:scale-105 shadow-md"
-                >
-                  Quero Minha Avaliação
-                </Button>
-                <p className="text-xs text-gray-400 text-center mt-2">
-                  * Avaliação com valor de R$ 99,00, que será descontado do valor total do procedimento.
-                </p>
-              </form>
+          </div>
+
+          {/* Imagem */}
+          <div className="relative">
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src={background}
+                alt="Tratamento com Laser Lavieen"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
-      </section>
-      {/* Modal de confirmação */}
-      <Dialog open={openModal}>
-        <DialogContent className="max-w-md" onInteractOutside={e => e.preventDefault()} onEscapeKeyDown={e => e.preventDefault()}>
-          <DialogHeader>
-            <DialogTitle className="text-center text-2xl font-bold mb-2">Formulário enviado!</DialogTitle>
-          </DialogHeader>
-          <p className="text-base text-center mb-4">
-            Ao clicar no botão abaixo de <b>Ok</b>, você será redirecionado para a página de pagamento da avaliação.<br/>
-            Após realizar o pagamento você poderá escolher sua data e horário da avaliação.
-          </p>
-          <DialogFooter>
-            <Button
-              className="w-full h-11 text-base font-semibold bg-[#fa1571] hover:bg-[#d91460]"
-              onClick={() => {
-                setOpenModal(false);
-                window.location.href = 'https://mpago.li/2q4t1zh';
-              }}
-            >
-              Ok
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-    </>
+
+        {/* Áreas tratadas */}
+        <div className="mt-20">
+          <h3 className="text-3xl font-bold text-center text-black mb-12">
+            Áreas e Indicações Tratadas
+          </h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {areasTratadas.map((area, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 border border-[#fa1571]/10"
+              >
+                <h4 className="text-xl font-bold text-[#fa1571] mb-3">{area.title}</h4>
+                <p className="text-gray-600 leading-relaxed">{area.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default Hero;  
+export default LaserLavieenInfo;
