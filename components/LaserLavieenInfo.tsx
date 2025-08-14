@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import background from 'public/back-full-face.jpeg';
+
 const LaserLavieenInfo = () => {
   const areasTratadas = [
     { 
@@ -43,7 +44,7 @@ const LaserLavieenInfo = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
             O que é o
-            <span className="text-[#0066cc] font-semibold"> Laser Lavieen</span>?
+            <span className="text-[#fa1571] font-semibold"> Laser Lavieen</span>?
           </h2>
         </div>
 
@@ -56,27 +57,27 @@ const LaserLavieenInfo = () => {
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               Com <strong>resultados cientificamente comprovados</strong>, o Lavieen oferece soluções completas para rejuvenescimento, uniformização da pele e tratamentos capilares, sem downtime e com máxima segurança.
             </p>
-            <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-8 border border-[#0066cc]/20">
+            <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-8 border border-[#fa1571]/20">
               <h3 className="text-2xl font-bold text-black mb-4">Diferenciais Exclusivos:</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#0066cc] rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
                   Tecnologia patenteada com múltiplos comprimentos de onda
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#0066cc] rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
                   Zero dor e zero recuperação (sem downtime)
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#0066cc] rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
                   Protocolos personalizados para cada necessidade
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#0066cc] rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
                   Resultados visíveis desde a primeira sessão
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#0066cc] rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
                   Aprovado pela ANVISA e FDA para diversos tratamentos
                 </li>
               </ul>
@@ -106,9 +107,9 @@ const LaserLavieenInfo = () => {
             {areasTratadas.map((area, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 border border-[#0066cc]/10"
+                className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 border border-[#fa1571]/10"
               >
-                <h4 className="text-xl font-bold text-[#0066cc] mb-3">{area.title}</h4>
+                <h4 className="text-xl font-bold text-[#fa1571] mb-3">{area.title}</h4>
                 <p className="text-gray-600 leading-relaxed">{area.description}</p>
               </div>
             ))}
