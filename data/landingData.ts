@@ -84,35 +84,36 @@ export const diferenciaisData = [
 export const faqData = [
   {
     id: 1,
-    pergunta: "O preenchimento labial dói?",
-    resposta: "O preenchimento labial é realizado com agulhas ou cânulas finas e geralmente causa apenas um leve desconforto. Utilizamos anestesia local para garantir o máximo de conforto durante todo o procedimento."
+    pergunta: "O tratamento com bioestimulador de colágeno dói?",
+    resposta: "O bioestimulador de colágeno é aplicado com agulhas ou cânulas finas, causando apenas um leve desconforto. Utilizamos anestesia local para proporcionar maior conforto durante todo o procedimento."
   },
   {
     id: 2,
-    pergunta: "Quanto tempo dura o efeito do preenchimento labial?",
-    resposta: "A duração média do preenchimento labial é de 8 a 12 meses, podendo variar conforme o metabolismo individual, o tipo de ácido hialurônico utilizado e os cuidados pós-procedimento."
+    pergunta: "Quanto tempo dura o efeito do bioestimulador de colágeno?",
+    resposta: "Os resultados do bioestimulador de colágeno podem durar de 18 a 24 meses, dependendo do tipo de produto utilizado, metabolismo individual e cuidados pós-tratamento."
   },
   {
     id: 3,
-    pergunta: "Quando vejo o resultado do preenchimento labial?",
-    resposta: "Os resultados do preenchimento labial são visíveis imediatamente após a aplicação, mas o efeito final é percebido após cerca de 7 dias, quando o inchaço inicial diminui."
+    pergunta: "Quando vejo o resultado do bioestimulador de colágeno?",
+    resposta: "O resultado do bioestimulador de colágeno é progressivo. A produção de colágeno novo começa nas semanas seguintes ao tratamento, com melhora visível a partir de 30 dias e resultado máximo em até 90 dias."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após o preenchimento labial?",
-    resposta: "A recuperação do preenchimento labial é rápida. Pequenos inchaços ou hematomas podem ocorrer, mas desaparecem em poucos dias. É recomendado evitar exercícios físicos intensos e exposição ao sol nas primeiras 24 horas."
+    pergunta: "Qual é o tempo de recuperação após o bioestimulador de colágeno?",
+    resposta: "A recuperação é rápida. Pode haver um leve inchaço ou pequenos hematomas nos primeiros dias, mas é possível retomar as atividades normais imediatamente, evitando apenas exercícios intensos e exposição solar por 24 horas."
   },
   {
     id: 5,
-    pergunta: "O preenchimento labial é seguro?",
-    resposta: "Sim, desde que realizado por profissionais qualificados e utilizando produtos aprovados pela Anvisa. Na DamaFace seguimos protocolos rigorosos para garantir sua segurança e resultados naturais."
+    pergunta: "O bioestimulador de colágeno é seguro?",
+    resposta: "Sim, quando realizado por profissionais experientes e com produtos aprovados pela Anvisa. Na DamaFace seguimos protocolos rigorosos para garantir segurança, eficácia e resultados naturais."
   },
   {
     id: 6,
-    pergunta: "Preciso fazer exames antes de realizar o preenchimento labial?",
-    resposta: "Na maioria dos casos não há necessidade de exames prévios. Realizamos uma avaliação completa para entender seus objetivos e verificar se o preenchimento labial é indicado para você."
+    pergunta: "Preciso fazer exames antes de realizar o bioestimulador de colágeno?",
+    resposta: "Na maioria dos casos, não é necessário realizar exames prévios. Antes do procedimento, fazemos uma avaliação personalizada para entender suas necessidades e indicar o melhor protocolo para você."
   }
 ];
+
 
 export const unidadesData = [
   { value: "vinhedo", label: "Unidade 1 - Vinhedo" },
