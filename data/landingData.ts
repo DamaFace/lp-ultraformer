@@ -41,19 +41,19 @@ export const depoimentosData = [
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "Sempre quis me livrar dos pelos de forma definitiva. Depois do tratamento de depilação a laser na DamaFace, minha pele ficou lisa, suave e sem irritações."
+    depoimento: "O tratamento com Laser Lavieen na DamaFace transformou minha pele. Minhas manchas clarearam, a textura melhorou e fiquei com a pele muito mais firme e luminosa."
   },
   {
     id: 2,
-    nome_paciente: 'Ana Maria',
+    nome_paciente: "Ana Maria",
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Eu tinha pelos encravados e irritações constantes. Após a depilação a laser na DamaFace, minha pele ficou muito mais uniforme e confortável, sem pelos indesejados."
+    depoimento: "Sempre tive pequenas manchas e poros dilatados. Com o Laser Lavieen na DamaFace, percebi um resultado incrível: pele uniforme, rejuvenescida e natural."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "A depilação a laser na DamaFace superou minhas expectativas. O resultado é natural, duradouro e minha pele ficou impecavelmente lisa, sem esforço diário."
+    depoimento: "O Laser Lavieen na DamaFace superou minhas expectativas. Minha pele ficou firme, com textura suave e aparência rejuvenescida. Recomendo totalmente!"
   }
 ];
 
@@ -84,53 +84,53 @@ export const diferenciaisData = [
 export const faqData = [
   {
     id: 1,
-    pergunta: "A depilação a laser dói?",
-    resposta: "A depilação a laser na DamaFace é praticamente indolor. Utilizamos tecnologia avançada e sistema de resfriamento para reduzir qualquer desconforto, garantindo um procedimento seguro e confortável."
+    pergunta: "O tratamento com Laser Lavieen dói?",
+    resposta: "O Laser Lavieen na DamaFace Vinhedo é minimamente invasivo e praticamente indolor. A tecnologia avançada permite sessões confortáveis, promovendo rejuvenescimento e firmeza da pele sem desconforto significativo."
   },
   {
     id: 2,
-    pergunta: "Quantas sessões de depilação a laser são necessárias?",
-    resposta: "O número de sessões depende do tipo de pele, cor do pelo e área tratada. Em média, indicamos de 6 a 8 sessões para resultados duradouros, sempre com avaliação personalizada na DamaFace."
+    pergunta: "Quantas sessões de Laser Lavieen são necessárias para ver resultados?",
+    resposta: "O número de sessões depende do tipo de pele, área tratada e objetivo do tratamento. Em média, recomendamos de 3 a 5 sessões para resultados visíveis em firmeza, textura e luminosidade da pele, sempre com avaliação personalizada na DamaFace Vinhedo."
   },
   {
     id: 3,
-    pergunta: "A depilação a laser é definitiva?",
-    resposta: "A depilação a laser reduz significativamente o crescimento dos pelos, oferecendo resultados duradouros. Alguns pelos podem crescer novamente, mas em menor quantidade e mais finos, mantendo a pele lisa e uniforme."
+    pergunta: "Quais benefícios posso esperar do Laser Lavieen?",
+    resposta: "O Laser Lavieen promove rejuvenescimento facial e corporal, reduz manchas, suaviza linhas finas, melhora a textura da pele e estimula a produção de colágeno, deixando a pele firme, uniforme e com aparência natural."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após a depilação a laser?",
-    resposta: "Não há tempo de recuperação. Você pode retomar suas atividades normalmente. É recomendado evitar exposição solar direta e produtos agressivos na área tratada por 24 a 48 horas."
+    pergunta: "Qual é o tempo de recuperação após o Laser Lavieen?",
+    resposta: "O Laser Lavieen possui recuperação rápida. Você pode retomar atividades normais imediatamente, com alguns cuidados como evitar exposição solar direta e uso de produtos agressivos nas 24 a 48 horas seguintes."
   },
   {
     id: 5,
-    pergunta: "A depilação a laser é segura para todos os tipos de pele?",
-    resposta: "Sim. Na DamaFace utilizamos equipamentos de última geração que podem ser ajustados para diferentes tipos de pele, garantindo segurança, eficácia e resultados naturais."
+    pergunta: "O Laser Lavieen é seguro para todos os tipos de pele?",
+    resposta: "Sim. Na DamaFace Vinhedo utilizamos tecnologia avançada que pode ser ajustada para todos os tipos de pele, garantindo segurança, eficácia e resultados naturais."
   },
   {
     id: 6,
-    pergunta: "Posso fazer depilação a laser em áreas sensíveis?",
-    resposta: "Sim. A depilação a laser na DamaFace é indicada para todas as áreas do corpo, incluindo regiões sensíveis, sempre com protocolos específicos para conforto e segurança."
+    pergunta: "O Laser Lavieen ajuda na redução de manchas e cicatrizes?",
+    resposta: "Sim. O Laser Lavieen é altamente eficaz na redução de manchas, hiperpigmentação e pequenas cicatrizes, promovendo uniformidade e luminosidade da pele."
   },
   {
     id: 7,
-    pergunta: "Quanto tempo dura cada sessão de depilação a laser?",
-    resposta: "O tempo de cada sessão varia conforme a área tratada. Pequenas regiões podem levar 15 a 20 minutos, enquanto áreas maiores podem durar até 60 minutos, sempre com atendimento personalizado na DamaFace."
+    pergunta: "Quanto tempo dura cada sessão de Laser Lavieen?",
+    resposta: "Cada sessão de Laser Lavieen dura entre 20 e 50 minutos, dependendo da área tratada, com atendimento personalizado e tecnologia de ponta da DamaFace Vinhedo para máximo conforto e eficácia."
   },
   {
     id: 8,
-    pergunta: "Quais cuidados devo ter antes da depilação a laser?",
-    resposta: "Evite exposição solar, bronzeamento artificial e depilação com cera ou pinça nas semanas que antecedem a sessão. Na DamaFace, orientamos cada paciente com instruções claras para potencializar resultados e segurança."
+    pergunta: "Quais cuidados devo ter antes do Laser Lavieen?",
+    resposta: "Evite exposição solar intensa, bronzeamento artificial e produtos agressivos na pele antes do procedimento. A DamaFace Vinhedo orienta cada paciente com instruções detalhadas para potencializar resultados e segurança."
   },
   {
     id: 9,
-    pergunta: "Quais cuidados devo ter após a depilação a laser?",
-    resposta: "Após a sessão, recomenda-se hidratar a pele, evitar sol e calor excessivo e não utilizar produtos agressivos. Seguindo essas orientações, os resultados da depilação a laser serão mais duradouros e confortáveis."
+    pergunta: "Quais cuidados devo ter após o Laser Lavieen?",
+    resposta: "Após o tratamento, recomenda-se hidratar a pele, evitar sol intenso e não utilizar produtos abrasivos. Seguindo essas orientações, o Laser Lavieen proporciona resultados mais duradouros, firmes e rejuvenescidos."
   },
   {
     id: 10,
-    pergunta: "A depilação a laser funciona para homens e mulheres?",
-    resposta: "Sim. A depilação a laser na DamaFace é eficaz para todos os gêneros, podendo ser aplicada em diversas regiões do corpo, proporcionando pele lisa, suave e sem pelos de forma segura e duradoura."
+    pergunta: "O Laser Lavieen é indicado para todas as idades?",
+    resposta: "Sim. O Laser Lavieen é seguro para adultos de todas as idades, podendo ser utilizado para rejuvenescimento, estímulo de colágeno e melhora da textura da pele, sempre com avaliação personalizada na DamaFace Vinhedo."
   }
 ];
 
