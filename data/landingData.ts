@@ -34,29 +34,28 @@ export const carrosselData = [
     legenda: "Resultado equilibrado e sofisticado"
   }
 ];
+
 // dados para os depoimentos 
 export const depoimentosData = [
   {
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "Sempre quis ter glúteos mais arredondados e firmes. Depois do tratamento de harmonização de glúteos na DamaFace, meu bumbum ganhou mais volume e um formato muito mais bonito."
+    depoimento: "Sempre quis me livrar dos pelos de forma definitiva. Depois do tratamento de depilação a laser na DamaFace, minha pele ficou lisa, suave e sem irritações."
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Eu tinha flacidez nos glúteos e não me sentia confortável com isso. Após a harmonização de glúteos na DamaFace, notei mais sustentação, firmeza e um contorno incrível."
+    depoimento: "Eu tinha pelos encravados e irritações constantes. Após a depilação a laser na DamaFace, minha pele ficou muito mais uniforme e confortável, sem pelos indesejados."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "A harmonização de glúteos na DamaFace superou minhas expectativas. O volume ficou proporcional ao meu corpo e o resultado foi natural, sem perder a minha essência."
+    depoimento: "A depilação a laser na DamaFace superou minhas expectativas. O resultado é natural, duradouro e minha pele ficou impecavelmente lisa, sem esforço diário."
   }
 ];
-
-
 
 // Dados para a seção "Por que escolher a DamaFace?"
 export const diferenciaisData = [
@@ -85,37 +84,55 @@ export const diferenciaisData = [
 export const faqData = [
   {
     id: 1,
-    pergunta: "A harmonização de glúteos na DamaFace dói?",
-    resposta: "A harmonização de glúteos na DamaFace é feita com agulhas ou cânulas finas, causando apenas um leve desconforto. Utilizamos anestesia local para garantir conforto e segurança durante todo o procedimento estético."
+    pergunta: "A depilação a laser dói?",
+    resposta: "A depilação a laser na DamaFace é praticamente indolor. Utilizamos tecnologia avançada e sistema de resfriamento para reduzir qualquer desconforto, garantindo um procedimento seguro e confortável."
   },
   {
     id: 2,
-    pergunta: "Quanto tempo dura o resultado da harmonização de glúteos?",
-    resposta: "Os resultados da harmonização de glúteos podem durar de 12 a 18 meses, dependendo do produto utilizado, metabolismo individual e dos cuidados pós-procedimento indicados pela DamaFace, garantindo glúteos firmes e naturais."
+    pergunta: "Quantas sessões de depilação a laser são necessárias?",
+    resposta: "O número de sessões depende do tipo de pele, cor do pelo e área tratada. Em média, indicamos de 6 a 8 sessões para resultados duradouros, sempre com avaliação personalizada na DamaFace."
   },
   {
     id: 3,
-    pergunta: "Quando verei o resultado da harmonização de glúteos?",
-    resposta: "O resultado da harmonização de glúteos é progressivo. A melhora começa a aparecer nas semanas seguintes, com resultados visíveis a partir de 30 dias e efeito máximo em até 90 dias, promovendo contorno e volume naturais."
+    pergunta: "A depilação a laser é definitiva?",
+    resposta: "A depilação a laser reduz significativamente o crescimento dos pelos, oferecendo resultados duradouros. Alguns pelos podem crescer novamente, mas em menor quantidade e mais finos, mantendo a pele lisa e uniforme."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após a harmonização de glúteos?",
-    resposta: "A recuperação da harmonização de glúteos é rápida. Pode haver leve inchaço ou pequenos hematomas nos primeiros dias, mas é possível retomar atividades leves imediatamente. Exercícios intensos e exposição solar devem ser evitados por 24 a 48 horas para melhores resultados."
+    pergunta: "Qual é o tempo de recuperação após a depilação a laser?",
+    resposta: "Não há tempo de recuperação. Você pode retomar suas atividades normalmente. É recomendado evitar exposição solar direta e produtos agressivos na área tratada por 24 a 48 horas."
   },
   {
     id: 5,
-    pergunta: "A harmonização de glúteos é segura?",
-    resposta: "Sim, a harmonização de glúteos na DamaFace é segura quando realizada por profissionais especializados e com produtos aprovados pela Anvisa. Seguimos protocolos rigorosos para garantir resultados naturais, harmonia estética e segurança total."
+    pergunta: "A depilação a laser é segura para todos os tipos de pele?",
+    resposta: "Sim. Na DamaFace utilizamos equipamentos de última geração que podem ser ajustados para diferentes tipos de pele, garantindo segurança, eficácia e resultados naturais."
   },
   {
     id: 6,
-    pergunta: "Preciso fazer exames antes da harmonização de glúteos?",
-    resposta: "Na maioria dos casos, não é necessário. Antes do procedimento, a DamaFace realiza uma avaliação personalizada para definir o melhor protocolo, garantindo resultados estéticos seguros e adequados ao seu corpo."
+    pergunta: "Posso fazer depilação a laser em áreas sensíveis?",
+    resposta: "Sim. A depilação a laser na DamaFace é indicada para todas as áreas do corpo, incluindo regiões sensíveis, sempre com protocolos específicos para conforto e segurança."
+  },
+  {
+    id: 7,
+    pergunta: "Quanto tempo dura cada sessão de depilação a laser?",
+    resposta: "O tempo de cada sessão varia conforme a área tratada. Pequenas regiões podem levar 15 a 20 minutos, enquanto áreas maiores podem durar até 60 minutos, sempre com atendimento personalizado na DamaFace."
+  },
+  {
+    id: 8,
+    pergunta: "Quais cuidados devo ter antes da depilação a laser?",
+    resposta: "Evite exposição solar, bronzeamento artificial e depilação com cera ou pinça nas semanas que antecedem a sessão. Na DamaFace, orientamos cada paciente com instruções claras para potencializar resultados e segurança."
+  },
+  {
+    id: 9,
+    pergunta: "Quais cuidados devo ter após a depilação a laser?",
+    resposta: "Após a sessão, recomenda-se hidratar a pele, evitar sol e calor excessivo e não utilizar produtos agressivos. Seguindo essas orientações, os resultados da depilação a laser serão mais duradouros e confortáveis."
+  },
+  {
+    id: 10,
+    pergunta: "A depilação a laser funciona para homens e mulheres?",
+    resposta: "Sim. A depilação a laser na DamaFace é eficaz para todos os gêneros, podendo ser aplicada em diversas regiões do corpo, proporcionando pele lisa, suave e sem pelos de forma segura e duradoura."
   }
 ];
-
-
 
 export const unidadesData = [
   { value: "vinhedo", label: "Unidade 1 - Vinhedo" },
