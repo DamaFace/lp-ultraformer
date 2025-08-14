@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Carrossel from '@/components/Carrossel';
 import Depoimentos from '@/components/Depoimentos';
-import BioestimuladorInfo from '@/components/BioestimuladorInfo';
+import GluteoInfo from '@/components/GluteoInfo';
 import PorqueEscolher from '@/components/PorqueEscolher';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
@@ -27,7 +27,7 @@ export default function Home() {
       <ChatWidget />
       <Carrossel />
       <Depoimentos />
-      <BioestimuladorInfo />
+      <GluteoInfo />
       <PorqueEscolher />
       <FAQ />
       <Footer />
