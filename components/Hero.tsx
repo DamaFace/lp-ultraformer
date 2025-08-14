@@ -76,8 +76,8 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Harmonização de Gluteos<br/>
-                <span className="text-[#fa1571] block font-semibold"Volume, contorno e bumbum durinho</span>
+                Harmonização de Glúteos<br/>
+                <span className="text-[#fa1571] block font-semibold">Volume, contorno e bumbum durinho</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
                   São mais de <span className="text-[#fa1572] font-semibold">8 anos</span> transformando glúteos com segurança e maestria.
