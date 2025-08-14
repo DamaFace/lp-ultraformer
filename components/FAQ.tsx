@@ -24,7 +24,7 @@ const FAQ = () => {
             <span className="text-[#fa1571]"> Frequentes</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Esclarecemos as principais dúvidas sobre Bioestimulador de colágeno
+            Esclarecemos as principais dúvidas sobre Harmonização de Glúteos
           </p>
         </div>
 
