@@ -35,7 +35,7 @@ const Hero = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://n8n-n8n.i4khe5.easypanel.host/webhook/laser-lavieen', {
+      const response = await fetch('https://n8n-n8n.i4khe5.easypanel.host/webhook/ultraformer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -77,15 +77,15 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Laser Lavieen<br/>
+                Ultraformer<br/>
                 <span className="text-white block font-semibold">Tecnologia avançada para</span>
-                <span className="text-[#fa1571] block font-semibold">pele perfeita</span>
+                <span className="text-[#fa1571] block font-semibold">lifting facial e firmeza da pele</span>
               </h1>
-              <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                O <span className="text-white font-medium">Laser Lavieen</span> é a evolução em depilação a laser, com <span className="text-white font-medium">mais de 8 anos</span> de comprovação científica. 
-                <span className="text-white font-medium">Resultados 40% mais rápidos</span> que os lasers convencionais, com zero dor e máxima eficiência. 
-                Elimine até <span className="text-white font-medium">95% dos pelos</span> em poucas sessões e conquiste uma pele <span className="text-[#fa1571] font-medium">lisíssima o ano todo</span>.
-              </p>
+                <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
+                  O <span className="text-white font-medium">Ultraformer</span> é a evolução em tratamentos estéticos com <span className="text-white font-medium">ultrassom microfocado</span>, com <span className="text-white font-medium">mais de 8 anos</span> de experiência comprovada. 
+                  Proporciona <span className="text-white font-medium">lifting facial natural</span>, melhora a firmeza da pele e define contornos, garantindo <span className="text-white font-medium">resultados duradouros</span> de forma segura. 
+                  Conquiste uma aparência <span className="text-[#fa1571] font-medium">revitalizada e rejuvenescida</span> sem cirurgia.
+                </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
             </div>
