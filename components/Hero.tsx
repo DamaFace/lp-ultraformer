@@ -76,13 +76,14 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Depilação a Laser<br/>
-                <span className="text-[#fa1571] block font-semibold">Pele lisa, sem pelos e<br/> sem dor</span>
+                Laser Lavieen<br/>
+                <span className="text-white block font-semibold">Tecnologia avançada para</span>
+                <span className="text-[#fa1571] block font-semibold">pele perfeita sem esforço</span>
               </h1>
               <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                Com mais de <span className="text-[#fa1572] font-semibold">8 anos</span> de experiência em depilação a laser, oferecemos tratamentos seguros e eficazes para eliminar os pelos definitivamente. 
-                Diga adeus à depilação tradicional e tenha uma pele incrivelmente macia, sem foliculite ou pelos encravados. 
-                Resultados visíveis já nas primeiras sessões, com tecnologia de ponta e atendimento especializado.
+                O <span className="text-white font-medium">Laser Lavieen</span> é a evolução em depilação a laser, com <span className="text-white font-medium">mais de 8 anos</span> de comprovação científica. 
+                <span className="text-white font-medium">Resultados 40% mais rápidos</span> que os lasers convencionais, com zero dor e máxima eficiência. 
+                Elimine até <span className="text-white font-medium">95% dos pelos</span> em poucas sessões e conquiste uma pele <span className="text-[#fa1571] font-medium">lisíssima o ano todo</span>.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
