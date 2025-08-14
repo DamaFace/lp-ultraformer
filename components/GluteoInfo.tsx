@@ -1,27 +1,11 @@
 import Image from 'next/image';
 import background from 'public/back-full-face.jpeg';
 
-const BioestimuladorInfo = () => {
+const GluteoInfo = () => {
 const areas = [
   {
-    title: "Rosto",
-    description: "Estimula a produção natural de colágeno, melhorando a firmeza, a elasticidade e suavizando rugas e linhas de expressão para um rejuvenescimento facial natural."
-  },
-  {
-    title: "Pescoço",
-    description: "Reduz a flacidez e melhora a textura da pele do pescoço, proporcionando uma aparência mais jovem e harmoniosa."
-  },
-  {
-    title: "Colo",
-    description: "Ameniza linhas finas, manchas e sinais de envelhecimento, deixando a pele do colo mais lisa, hidratada e uniforme."
-  },
-  {
-    title: "Braços",
-    description: "Combate a flacidez e melhora o tônus da pele dos braços, recuperando a firmeza e suavidade."
-  },
-  {
-    title: "Mãos",
-    description: "Reduz sinais de envelhecimento, melhora a qualidade da pele e devolve o aspecto jovial às mãos."
+    title: "Glúteos",
+    description: "Aumenta o volume, define o contorno e corrige assimetrias, proporcionando um lifting natural e resultados harmoniosos. Melhora a firmeza e elasticidade da região glútea com técnicas de bioestimulação ou preenchimento."
   }
 ];
 
@@ -40,37 +24,33 @@ const areas = [
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              O <strong>bioestimulador de colágeno</strong> é um tratamento estético minimamente invasivo que ativa a 
-              produção natural de colágeno na pele, promovendo <strong>firmeza, elasticidade e rejuvenescimento facial</strong>. 
-              É ideal para reduzir flacidez, suavizar rugas e linhas de expressão, além de melhorar o contorno do rosto e pescoço.
+              A <strong>harmonização de glúteos</strong> é um conjunto de técnicas estéticas avançadas que visam <strong>aumentar volume, definir o contorno e corrigir assimetrias</strong>, proporcionando uma silhueta mais equilibrada e natural. Utilizando preenchimentos com ácido hialurônico ou bioestimuladores de colágeno, o procedimento modela os glúteos sem necessidade de cirurgia.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Com aplicação rápida e praticamente indolor, o <strong>bioestimulador de colágeno</strong> proporciona 
-              resultados progressivos e duradouros, garantindo uma aparência natural e saudável. 
-              O procedimento estimula a regeneração da pele de dentro para fora, respeitando a beleza única de cada paciente.
+              Com técnicas minimamente invasivas e resultados imediatos ou progressivos (no caso dos bioestimuladores), a harmonização glútea oferece <strong>efeitos naturais e personalizados</strong>. O procedimento é realizado por médicos especialistas em estética corporal, garantindo segurança e um acabamento que respeita a anatomia natural de cada paciente.
             </p>
             <div className="bg-[#ededed] rounded-2xl p-8 mb-8">
               <h3 className="text-2xl font-bold text-black mb-4">Principais Benefícios:</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Rejuvenesce a pele de dentro para fora
+                  Aumento de volume imediato ou progressivo (dependendo da técnica)
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Aumenta firmeza, elasticidade e viço natural
+                  Correção de assimetrias e melhora da proporção corporal
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Suaviza rugas finas e melhora textura
+                  Lifting e definição do contorno glúteo
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Resultados gradativos, naturais e com longa duração
+                  Resultados naturais e harmoniosos com o biótipo do paciente
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                    Procedimento seguro e minimamente invasivo
+                  Procedimento seguro, com recuperação rápida e mínimos incômodos
                 </li>
               </ul>
             </div>
@@ -111,4 +91,4 @@ const areas = [
   );
 };
 
-export default BioestimuladorInfo;
+export default GluteoInfo;
