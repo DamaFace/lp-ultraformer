@@ -1,39 +1,23 @@
 import Image from 'next/image';
 import background from 'public/back-full-face.jpeg';
 
-const LaserLavieenInfo = () => {
+const UltraformerInfo = () => {
   const areasTratadas = [
     { 
-      title: "Rejuvenescimento Facial", 
-      description: "Estimulação de colágeno para redução de rugas e linhas de expressão com tecnologia Lavieen." 
+      title: "Lifting Facial", 
+      description: "Tratamento de flacidez facial, proporcionando efeito lifting imediato e progressivo com ultrassom microfocado." 
     },
     { 
-      title: "Tratamento de Melasma", 
-      description: "Clareamento de manchas faciais com ação profunda e resultados duradouros." 
+      title: "Lifting Corporal", 
+      description: "Redução da flacidez corporal em áreas como abdômen, braços, coxas e glúteos, melhorando o contorno da pele." 
     },
     { 
-      title: "Terapia Capilar", 
-      description: "Estímulo ao crescimento saudável dos fios e tratamento de alopécia." 
+      title: "Redução de Gordura Localizada", 
+      description: "Diminuição da gordura localizada, especialmente em áreas como papada, flancos e abdômen." 
     },
     { 
-      title: "Redução de Poros", 
-      description: "Minimização do tamanho dos poros e controle de oleosidade." 
-    },
-    { 
-      title: "Uniformização do Tom", 
-      description: "Correção de discromias e vermelhidão para pele homogênea." 
-    },
-    { 
-      title: "Pescoço e Colo", 
-      description: "Rejuvenescimento da área cervical e décolleté com tecnologia não-abrasiva." 
-    },
-    { 
-      title: "Mãos", 
-      description: "Tratamento antienvelhecimento para áreas de pele fina e delicada." 
-    },
-    { 
-      title: "Corpo Inteiro", 
-      description: "Estímulo de colágeno para firmeza e textura uniforme em todas as áreas." 
+      title: "Flacidez Pós-Emagrecimento", 
+      description: "Tratamento eficaz para melhorar a firmeza da pele após grandes perdas de peso, proporcionando uma pele mais tonificada." 
     }
   ];
 
@@ -44,7 +28,7 @@ const LaserLavieenInfo = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
             O que é o
-            <span className="text-[#fa1571] font-semibold"> Laser Lavieen</span>?
+            <span className="text-[#fa1571] font-semibold"> Ultraformer</span>?
           </h2>
         </div>
 
@@ -52,33 +36,33 @@ const LaserLavieenInfo = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              O <strong>Laser Lavieen</strong> é uma tecnologia <strong>não-invasiva</strong> que combina diferentes comprimentos de onda para tratamentos dermatológicos de alta precisão. Diferente dos lasers convencionais, atua de forma <strong>personalizada</strong> em cada tipo de pele e condição específica.
+              O <strong>Ultraformer</strong> é um tratamento não-invasivo que utiliza tecnologia de ultrassom microfocado para combater a flacidez e promover o rejuvenescimento da pele. Ele age profundamente nas camadas da pele para estimular a produção de colágeno, melhorando a firmeza e o contorno facial e corporal.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Com <strong>resultados cientificamente comprovados</strong>, o Lavieen oferece soluções completas para rejuvenescimento, uniformização da pele e tratamentos capilares, sem downtime e com máxima segurança.
+              Com resultados rápidos e duradouros, o Ultraformer é uma excelente opção para quem busca melhorar a textura e elasticidade da pele, sem a necessidade de cirurgia ou recuperação prolongada.
             </p>
             <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-8 border border-[#fa1571]/20">
               <h3 className="text-2xl font-bold text-black mb-4">Diferenciais Exclusivos:</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Tecnologia patenteada com múltiplos comprimentos de onda
+                  Tecnologia de ultrassom microfocado para resultados profundos e duradouros
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Zero dor e zero recuperação (sem downtime)
+                  Sem cortes, sem downtime e recuperação rápida
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Protocolos personalizados para cada necessidade
+                  Protocolo personalizado para cada área e tipo de pele
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Resultados visíveis desde a primeira sessão
+                  Resultados visíveis já após a primeira sessão
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Aprovado pela ANVISA e FDA para diversos tratamentos
+                  Tecnologia segura e eficaz, aprovada pela ANVISA e FDA
                 </li>
               </ul>
             </div>
@@ -89,7 +73,7 @@ const LaserLavieenInfo = () => {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src={background}
-                alt="Tratamento com Laser Lavieen"
+                alt="Tratamento com Ultraformer"
                 fill
                 className="object-cover"
                 priority
@@ -120,4 +104,4 @@ const LaserLavieenInfo = () => {
   );
 };
 
-export default LaserLavieenInfo;
+export default UltraformerInfo;
