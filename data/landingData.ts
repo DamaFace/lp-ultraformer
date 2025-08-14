@@ -40,21 +40,22 @@ export const depoimentosData = [
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "Sempre quis ter lábios mais definidos e volumosos, mas sem perder a naturalidade. O preenchimento labial que fiz na DamaFace superou minhas expectativas. Ficou perfeito!"
+    depoimento: "Sempre me incomodou a flacidez no rosto, mas após o tratamento com bioestimulador de colágeno na DamaFace, minha pele ficou muito mais firme e com aspecto rejuvenescido."
   },
   {
     id: 2,
     nome_paciente: 'Ana Maria',
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Meus lábios eram muito finos e sem contorno. Após o preenchimento labial na DamaFace, ganhei volume e hidratação. Agora me sinto muito mais confiante para sorrir."
+    depoimento: "Senti que minha pele perdeu elasticidade com o tempo, e o bioestimulador de colágeno devolveu a firmeza e a vitalidade que eu queria. Me sinto muito mais confiante."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "O preenchimento labial que fiz na DamaFace ficou extremamente natural. A equipe foi atenciosa, explicou todo o processo e o resultado ficou harmonioso com meu rosto."
+    depoimento: "O tratamento com bioestimulador de colágeno na DamaFace foi incrível. Minha pele ganhou mais sustentação e vi resultados naturais e progressivos, sem perder minha essência."
   }
 ];
+
 
 // Dados para a seção "Por que escolher a DamaFace?"
 export const diferenciaisData = [
