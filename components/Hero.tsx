@@ -78,7 +78,7 @@ const Hero = () => {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
                 Laser Lavieen<br/>
                 <span className="text-white block font-semibold">Tecnologia avançada para</span>
-                <span className="text-[#fa1571] block font-semibold">pele perfeita sem esforço</span>
+                <span className="text-[#fa1571] block font-semibold">pele perfeita</span>
               </h1>
               <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
                 O <span className="text-white font-medium">Laser Lavieen</span> é a evolução em depilação a laser, com <span className="text-white font-medium">mais de 8 anos</span> de comprovação científica. 
