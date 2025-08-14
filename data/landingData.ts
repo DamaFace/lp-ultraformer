@@ -41,19 +41,19 @@ export const depoimentosData = [
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "O tratamento com Laser Lavieen na DamaFace transformou minha pele. Minhas manchas clarearam, a textura melhorou e fiquei com a pele muito mais firme e luminosa."
+    depoimento: "O tratamento com Ultraformer na DamaFace transformou minha pele. Minha face ficou mais firme, com contornos definidos e aparência rejuvenescida."
   },
   {
     id: 2,
     nome_paciente: "Ana Maria",
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Sempre tive pequenas manchas e poros dilatados. Com o Laser Lavieen na DamaFace, percebi um resultado incrível: pele uniforme, rejuvenescida e natural."
+    depoimento: "Sempre notei flacidez e linhas finas. Com o Ultraformer na DamaFace, percebi um lifting natural, pele mais firme e rejuvenescida de forma segura e eficaz."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "O Laser Lavieen na DamaFace superou minhas expectativas. Minha pele ficou firme, com textura suave e aparência rejuvenescida. Recomendo totalmente!"
+    depoimento: "O Ultraformer na DamaFace superou minhas expectativas. Minha pele ficou mais firme, contornos definidos e aparência jovem. Recomendo totalmente!"
   }
 ];
 
@@ -81,56 +81,57 @@ export const diferenciaisData = [
   }
 ];
 
+// dados FAQ 
 export const faqData = [
   {
     id: 1,
-    pergunta: "O tratamento com Laser Lavieen dói?",
-    resposta: "O Laser Lavieen na DamaFace Vinhedo é minimamente invasivo e praticamente indolor. A tecnologia avançada permite sessões confortáveis, promovendo rejuvenescimento e firmeza da pele sem desconforto significativo."
+    pergunta: "O tratamento com Ultraformer dói?",
+    resposta: "O Ultraformer na DamaFace Vinhedo é minimamente invasivo e praticamente indolor. O ultrassom microfocado permite sessões confortáveis, promovendo lifting facial, firmeza da pele e definição dos contornos sem desconforto significativo."
   },
   {
     id: 2,
-    pergunta: "Quantas sessões de Laser Lavieen são necessárias para ver resultados?",
-    resposta: "O número de sessões depende do tipo de pele, área tratada e objetivo do tratamento. Em média, recomendamos de 3 a 5 sessões para resultados visíveis em firmeza, textura e luminosidade da pele, sempre com avaliação personalizada na DamaFace Vinhedo."
+    pergunta: "Quantas sessões de Ultraformer são necessárias para ver resultados?",
+    resposta: "O número de sessões depende do tipo de pele, idade, área tratada e objetivo do tratamento. Em média, recomendamos de 1 a 3 sessões para resultados visíveis em firmeza, contornos definidos e rejuvenescimento facial, sempre com avaliação personalizada na DamaFace Vinhedo."
   },
   {
     id: 3,
-    pergunta: "Quais benefícios posso esperar do Laser Lavieen?",
-    resposta: "O Laser Lavieen promove rejuvenescimento facial e corporal, reduz manchas, suaviza linhas finas, melhora a textura da pele e estimula a produção de colágeno, deixando a pele firme, uniforme e com aparência natural."
+    pergunta: "Quais benefícios posso esperar do Ultraformer?",
+    resposta: "O Ultraformer promove lifting facial e corporal, melhora a firmeza da pele, define contornos, suaviza linhas de expressão e estimula a produção de colágeno, proporcionando aparência natural, jovem e revitalizada."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após o Laser Lavieen?",
-    resposta: "O Laser Lavieen possui recuperação rápida. Você pode retomar atividades normais imediatamente, com alguns cuidados como evitar exposição solar direta e uso de produtos agressivos nas 24 a 48 horas seguintes."
+    pergunta: "Qual é o tempo de recuperação após o Ultraformer?",
+    resposta: "O Ultraformer possui recuperação rápida. A maioria dos pacientes retoma atividades normais imediatamente, com alguns cuidados como evitar exposição solar direta e uso de produtos agressivos nas primeiras 24 a 48 horas."
   },
   {
     id: 5,
-    pergunta: "O Laser Lavieen é seguro para todos os tipos de pele?",
-    resposta: "Sim. Na DamaFace Vinhedo utilizamos tecnologia avançada que pode ser ajustada para todos os tipos de pele, garantindo segurança, eficácia e resultados naturais."
+    pergunta: "O Ultraformer é seguro para todos os tipos de pele?",
+    resposta: "Sim. Na DamaFace Vinhedo utilizamos tecnologia de ultrassom microfocado avançada, segura para todos os tipos de pele, garantindo resultados naturais e eficazes sem comprometer a saúde da pele."
   },
   {
     id: 6,
-    pergunta: "O Laser Lavieen ajuda na redução de manchas e cicatrizes?",
-    resposta: "Sim. O Laser Lavieen é altamente eficaz na redução de manchas, hiperpigmentação e pequenas cicatrizes, promovendo uniformidade e luminosidade da pele."
+    pergunta: "O Ultraformer ajuda na flacidez e definição de contornos?",
+    resposta: "Sim. O Ultraformer é altamente eficaz na melhora da firmeza da pele, definição de contornos faciais e corporais, promovendo efeito lifting natural e estimulando a produção de colágeno."
   },
   {
     id: 7,
-    pergunta: "Quanto tempo dura cada sessão de Laser Lavieen?",
-    resposta: "Cada sessão de Laser Lavieen dura entre 20 e 50 minutos, dependendo da área tratada, com atendimento personalizado e tecnologia de ponta da DamaFace Vinhedo para máximo conforto e eficácia."
+    pergunta: "Quanto tempo dura cada sessão de Ultraformer?",
+    resposta: "Cada sessão de Ultraformer dura entre 30 e 60 minutos, dependendo da área tratada. Na DamaFace Vinhedo, cada sessão é personalizada para máximo conforto e resultados precisos."
   },
   {
     id: 8,
-    pergunta: "Quais cuidados devo ter antes do Laser Lavieen?",
-    resposta: "Evite exposição solar intensa, bronzeamento artificial e produtos agressivos na pele antes do procedimento. A DamaFace Vinhedo orienta cada paciente com instruções detalhadas para potencializar resultados e segurança."
+    pergunta: "Quais cuidados devo ter antes do Ultraformer?",
+    resposta: "Evite exposição solar intensa, bronzeamento artificial e produtos agressivos na pele antes do procedimento. Na DamaFace Vinhedo, orientamos cada paciente detalhadamente para potencializar os resultados e garantir segurança."
   },
   {
     id: 9,
-    pergunta: "Quais cuidados devo ter após o Laser Lavieen?",
-    resposta: "Após o tratamento, recomenda-se hidratar a pele, evitar sol intenso e não utilizar produtos abrasivos. Seguindo essas orientações, o Laser Lavieen proporciona resultados mais duradouros, firmes e rejuvenescidos."
+    pergunta: "Quais cuidados devo ter após o Ultraformer?",
+    resposta: "Após o tratamento, recomenda-se hidratar a pele, evitar calor excessivo e exposição solar direta. Seguindo estas orientações, o Ultraformer proporciona resultados duradouros em firmeza, contornos definidos e rejuvenescimento facial."
   },
   {
     id: 10,
-    pergunta: "O Laser Lavieen é indicado para todas as idades?",
-    resposta: "Sim. O Laser Lavieen é seguro para adultos de todas as idades, podendo ser utilizado para rejuvenescimento, estímulo de colágeno e melhora da textura da pele, sempre com avaliação personalizada na DamaFace Vinhedo."
+    pergunta: "O Ultraformer é indicado para todas as idades?",
+    resposta: "Sim. O Ultraformer é seguro para adultos de todas as idades, podendo ser utilizado para lifting facial, firmeza da pele, definição de contornos e rejuvenescimento facial, sempre com avaliação personalizada na DamaFace Vinhedo."
   }
 ];
 
