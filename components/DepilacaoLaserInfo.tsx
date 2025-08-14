@@ -2,20 +2,32 @@ import Image from 'next/image';
 import background from 'public/back-full-face.jpeg';
 
 const DepilacaoLaserInfo = () => {
-  const areasMulheres = [
-    { title: "Axilas", description: "Elimina definitivamente os pelos das axilas, acabando com a irritação causada pela lâmina e deixando a pele lisinha." },
-    { title: "Virilha", description: "Tratamento completo para a região íntima, proporcionando maior higiene e conforto no dia a dia." },
-    { title: "Perna Inteira", description: "Acabe com o incômodo de depilar as pernas constantemente, com resultados duradouros e pele macia." },
-    { title: "Buço", description: "Solução para os pelos faciais indesejados, com tecnologia segura para a pele do rosto." },
-    { title: "Braços", description: "Tratamento eficaz para pelos dos braços, deixando a pele uniforme e suave." },
-    { title: "Nádegas", description: "Depilação higiênica e prática para a região glútea, eliminando pelos e foliculite." }
-  ];
+const areasMulheres = [
+  { title: "Abdômen", description: "Eliminação definitiva dos pelos abdominais para uma pele lisa e uniforme." },
+  { title: "Auréolo", description: "Depilação precisa e segura na região mamária, com tecnologia especializada." },
+  { title: "Virilha", description: "Tratamento completo para a região íntima feminina, com máximo conforto e discrição." },
+  { title: "Perianal", description: "Depilação higiênica e segura na região posterior íntima." },
+  { title: "Orelha", description: "Remoção de pelos indesejados nas orelhas com precisão e segurança." },
+  { title: "Axilas", description: "Solução definitiva para pelos axilares, acabando com a irritação da depilação tradicional." },
+  { title: "Costas", description: "Eliminação de pelos nas costas para uma pele uniforme e suave." },
+  { title: "Nádegas", description: "Depilação completa da região glútea, prevenindo foliculite e pelos encravados." },
+  { title: "Meia Perna", description: "Tratamento personalizado para a parte inferior ou superior das pernas." },
+  { title: "Perna Inteira", description: "Solução completa para pelos nas pernas, da coxa ao tornozelo." },
+  { title: "Buço", description: "Remoção precisa de pelos faciais acima do lábio superior." },
+  { title: "Braços", description: "Depilação uniforme de toda a extensão dos braços." },
+  { title: "Meio Braço", description: "Tratamento personalizado para parte dos braços conforme necessidade." }
+];
 
-  const areasHomens = [
-    { title: "Tórax", description: "Redução significativa de pelos no peito, com aparência mais cuidada e moderna." },
-    { title: "Costas", description: "Solução para pelos nas costas, proporcionando estética mais alinhada." },
-    { title: "Axilas", description: "Controle eficaz dos pelos axilares, reduzindo odor e transpiração excessiva." }
-  ];
+const areasHomens = [
+  { title: "Barba", description: "Modelagem e redução de pelos na área da barba para contornos mais definidos." },
+  { title: "Barba Completa", description: "Tratamento completo para redução de densidade em toda a área facial." },
+  { title: "Bigode", description: "Remoção total ou modelagem do bigode conforme preferência." },
+  { title: "Tórax", description: "Redução significativa de pelos no peito para uma aparência mais cuidada." },
+  { title: "Tórax e Abdômen", description: "Tratamento combinado para região torácica e abdominal." },
+  { title: "Axilas", description: "Controle eficaz de pelos axilares, reduzindo odor e transpiração." },
+  { title: "Costas", description: "Solução profissional para pelos dorsais indesejados." },
+  { title: "Orelha", description: "Remoção de pelos auriculares com tecnologia segura." }
+];
 
   return (
     <section id="procedimentos" className="py-20 bg-white">
