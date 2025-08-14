@@ -72,7 +72,7 @@ const areas = [
         {/* Áreas tratadas */}
         <div className="mt-20">
           <h3 className="text-3xl font-bold text-center text-black mb-12">
-            Principais Áreas Tratadas com Bioestimulador de colágeno.
+            Principal Área Tratada com Harmonização de Glúteos.
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             {areas.map((area, index) => (
