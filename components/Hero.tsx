@@ -76,13 +76,13 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Bioestimulador de Colágeno<br/>
-                <span className="text-[#fa1571] block font-semibold">firmeza e juventude</span> de forma natural
+                Harmonização de Gluteos<br/>
+                <span className="text-[#fa1571] block font-semibold"Volume, contorno e bumbum durinho</span>
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> aplicando bioestimuladores de colágeno com segurança e eficácia.
-                  Reduza a flacidez, suavize rugas e devolva elasticidade à pele, estimulando a produção natural de colágeno.
-                  Resultados progressivos, duradouros e com aspecto natural.
+                  São mais de <span className="text-[#fa1572] font-semibold">8 anos</span> transformando glúteos com segurança e maestria.
+                  Aumente o volume, corrija assimetrias e levante o contorno com técnicas personalizadas.
+                  Resultados naturais, harmoniosos e com toque artístico.
                 </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
