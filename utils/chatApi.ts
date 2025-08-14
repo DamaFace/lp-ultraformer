@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
-const N8N_WEBHOOK_URL = 'https://n8n-n8n.i4khe5.easypanel.host/webhook/6f893aa8-938f-4665-af9b-22e1b87d144b/chat';
+const N8N_WEBHOOK_URL = 'https://n8n-n8n.i4khe5.easypanel.host/webhook/5b042ec5-d5d1-47d7-b00b-ce568c37c3b3/chat';
 const SESSION_KEY = 'damaface_chat_session_id';
 
 function getOrCreateSessionId(): string {
