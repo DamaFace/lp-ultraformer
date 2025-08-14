@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Carrossel from '@/components/Carrossel';
 import Depoimentos from '@/components/Depoimentos';
-import LaserLavieenInfo from '@/components/LaserLavieenInfo';
+import UltraformerInfo from '@/components/UltraformerInfo';
 import PorqueEscolher from '@/components/PorqueEscolher';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
@@ -27,7 +27,7 @@ export default function Home() {
       <ChatWidget />
       <Carrossel />
       <Depoimentos />
-      <LaserLavieenInfo />
+      <UltraformerInfo />
       <PorqueEscolher />
       <FAQ />
       <Footer />
