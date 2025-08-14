@@ -76,14 +76,14 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Harmonização de Glúteos<br/>
-                <span className="text-[#fa1571] block font-semibold">Volume, contorno e bumbum durinho</span>
+                Depilação a Laser<br/>
+                <span className="text-[#fa1571] block font-semibold">Pele lisa, sem pelos e sem dor</span>
               </h1>
-                <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  São mais de <span className="text-[#fa1572] font-semibold">8 anos</span> transformando glúteos com segurança e maestria.
-                  Aumente o volume, corrija assimetrias e levante o contorno com técnicas personalizadas.
-                  Resultados naturais, harmoniosos e com toque artístico.
-                </p>
+              <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
+                Com mais de <span className="text-[#fa1572] font-semibold">8 anos</span> de experiência em depilação a laser, oferecemos tratamentos seguros e eficazes para eliminar os pelos definitivamente. 
+                Diga adeus à depilação tradicional e tenha uma pele incrivelmente macia, sem foliculite ou pelos encravados. 
+                Resultados visíveis já nas primeiras sessões, com tecnologia de ponta e atendimento especializado.
+              </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
             </div>
