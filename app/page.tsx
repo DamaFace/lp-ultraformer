@@ -9,12 +9,12 @@ import Footer from '@/components/Footer';
 import ChatWidget from '@/components/ChatWidget/ChatWidget';
 
 export const metadata = {
-  title: 'DamaFace Vinhedo – Harmonização de Glúteos em Vinhedo/SP | Mais Volume, Forma e Firmeza',
-  description: 'DamaFace em Vinhedo/SP — referência em harmonização de glúteos para aumentar o volume, deixar o formato mais arredondado e firme, além de reduzir a flacidez. +8 anos de experiência e +3.000 procedimentos realizados com segurança e resultados naturais. Agende sua avaliação!',
-  keywords: 'harmonização de glúteos Vinhedo, aumentar volume do bumbum, glúteos arredondados, tratamento flacidez glúteos, lifting de glúteos, bioestimulador de colágeno glúteos, bumbum firme e redondo, clínica estética Vinhedo, DamaFace',
+  title: 'DamaFace Vinhedo – Depilação a Laser em Vinhedo/SP | Pele Lisa, Suave e Sem Pelos',
+  description: 'DamaFace em Vinhedo/SP — referência em depilação a laser com tecnologia avançada para remover pelos de forma rápida, segura e duradoura. Mais de 8 anos de experiência e +3.000 procedimentos realizados com resultados naturais. Agende sua avaliação e conquiste pele lisa!',
+  keywords: 'depilação a laser Vinhedo, remoção de pelos Vinhedo, laser para pelos, depilação definitiva, clínica estética Vinhedo, DamaFace, pele lisa sem pelos, tratamento seguro depilação, depilação a laser feminina e masculina',
   openGraph: {
-    title: 'DamaFace Vinhedo – Harmonização de Glúteos',
-    description: 'Clínica especializada em harmonização de glúteos em Vinhedo/SP. Tratamento seguro para aumentar volume, melhorar formato e firmeza, e reduzir flacidez. Resultados naturais e duradouros. Agende sua avaliação!',
+    title: 'DamaFace Vinhedo – Depilação a Laser',
+    description: 'Clínica especializada em depilação a laser em Vinhedo/SP. Remoção segura e duradoura de pelos para pele lisa, suave e natural. Resultados rápidos e eficazes com tecnologia avançada. Agende sua avaliação!',
     type: 'website',
   }
 }
