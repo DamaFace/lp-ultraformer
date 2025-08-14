@@ -76,11 +76,13 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Preenchimento Labial
-                <span className="text-[#fa1571] block font-semibold">Aumente o volume <span className="text-[#fff] block font-semibold">e realce a beleza natural dos seus.</span> lábios.</span>
+                Bioestimulador de Colágeno
+                recupere<span className="text-[#fa1571] block font-semibold">firmeza e juventude</span> de forma natural
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> transformando sorrisos com preenchimento labial seguro e natural. Realce o contorno, aumente o volume e conquiste lábios mais hidratados e harmoniosos, mantendo sua essência e beleza única.
+                  São mais de <span className="text-[#fa1571] font-semibold">8 anos</span> aplicando bioestimuladores de colágeno com segurança e eficácia.
+                  Reduza a flacidez, suavize rugas e devolva elasticidade à pele, estimulando a produção natural de colágeno.
+                  Resultados progressivos, duradouros e com aspecto natural.
                 </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
