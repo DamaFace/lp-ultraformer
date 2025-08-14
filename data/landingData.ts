@@ -85,35 +85,36 @@ export const diferenciaisData = [
 export const faqData = [
   {
     id: 1,
-    pergunta: "O tratamento com bioestimulador de colágeno dói?",
-    resposta: "O bioestimulador de colágeno é aplicado com agulhas ou cânulas finas, causando apenas um leve desconforto. Utilizamos anestesia local para proporcionar maior conforto durante todo o procedimento."
+    pergunta: "A harmonização de glúteos na DamaFace dói?",
+    resposta: "A harmonização de glúteos na DamaFace é feita com agulhas ou cânulas finas, causando apenas um leve desconforto. Utilizamos anestesia local para garantir conforto e segurança durante todo o procedimento estético."
   },
   {
     id: 2,
-    pergunta: "Quanto tempo dura o efeito do bioestimulador de colágeno?",
-    resposta: "Os resultados do bioestimulador de colágeno podem durar de 18 a 24 meses, dependendo do tipo de produto utilizado, metabolismo individual e cuidados pós-tratamento."
+    pergunta: "Quanto tempo dura o resultado da harmonização de glúteos?",
+    resposta: "Os resultados da harmonização de glúteos podem durar de 12 a 18 meses, dependendo do produto utilizado, metabolismo individual e dos cuidados pós-procedimento indicados pela DamaFace, garantindo glúteos firmes e naturais."
   },
   {
     id: 3,
-    pergunta: "Quando vejo o resultado do bioestimulador de colágeno?",
-    resposta: "O resultado do bioestimulador de colágeno é progressivo. A produção de colágeno novo começa nas semanas seguintes ao tratamento, com melhora visível a partir de 30 dias e resultado máximo em até 90 dias."
+    pergunta: "Quando verei o resultado da harmonização de glúteos?",
+    resposta: "O resultado da harmonização de glúteos é progressivo. A melhora começa a aparecer nas semanas seguintes, com resultados visíveis a partir de 30 dias e efeito máximo em até 90 dias, promovendo contorno e volume naturais."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após o bioestimulador de colágeno?",
-    resposta: "A recuperação é rápida. Pode haver um leve inchaço ou pequenos hematomas nos primeiros dias, mas é possível retomar as atividades normais imediatamente, evitando apenas exercícios intensos e exposição solar por 24 horas."
+    pergunta: "Qual é o tempo de recuperação após a harmonização de glúteos?",
+    resposta: "A recuperação da harmonização de glúteos é rápida. Pode haver leve inchaço ou pequenos hematomas nos primeiros dias, mas é possível retomar atividades leves imediatamente. Exercícios intensos e exposição solar devem ser evitados por 24 a 48 horas para melhores resultados."
   },
   {
     id: 5,
-    pergunta: "O bioestimulador de colágeno é seguro?",
-    resposta: "Sim, quando realizado por profissionais experientes e com produtos aprovados pela Anvisa. Na DamaFace seguimos protocolos rigorosos para garantir segurança, eficácia e resultados naturais."
+    pergunta: "A harmonização de glúteos é segura?",
+    resposta: "Sim, a harmonização de glúteos na DamaFace é segura quando realizada por profissionais especializados e com produtos aprovados pela Anvisa. Seguimos protocolos rigorosos para garantir resultados naturais, harmonia estética e segurança total."
   },
   {
     id: 6,
-    pergunta: "Preciso fazer exames antes de realizar o bioestimulador de colágeno?",
-    resposta: "Na maioria dos casos, não é necessário realizar exames prévios. Antes do procedimento, fazemos uma avaliação personalizada para entender suas necessidades e indicar o melhor protocolo para você."
+    pergunta: "Preciso fazer exames antes da harmonização de glúteos?",
+    resposta: "Na maioria dos casos, não é necessário. Antes do procedimento, a DamaFace realiza uma avaliação personalizada para definir o melhor protocolo, garantindo resultados estéticos seguros e adequados ao seu corpo."
   }
 ];
+
 
 
 export const unidadesData = [
