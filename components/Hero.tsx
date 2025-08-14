@@ -76,7 +76,7 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Bioestimulador de Colágeno
+                Bioestimulador de Colágeno<br/>
                 recupere<span className="text-[#fa1571] block font-semibold">firmeza e juventude</span> de forma natural
               </h1>
                 <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
