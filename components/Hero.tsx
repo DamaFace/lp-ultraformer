@@ -34,7 +34,7 @@ const Hero = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://n8n-n8n.i4khe5.easypanel.host/webhook/gluteo', {
+      const response = await fetch('https://n8n-n8n.i4khe5.easypanel.host/webhook/depilacao-laser', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
