@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="mb-4">
               <Image
-                src="https://damaface.com.br/LOGO-DAMAFACE-HORIZONTAL.png"
+                src="/logo-preto-damaface.png"
                 alt="DamaFace Logo Preto"
                 width={120}
                 height={40}
